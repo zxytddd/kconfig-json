@@ -1,0 +1,1775 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACS_DARROW	libs/lxdialog/dialog.h	93;"	d
+ACS_HLINE	libs/lxdialog/dialog.h	78;"	d
+ACS_LLCORNER	libs/lxdialog/dialog.h	69;"	d
+ACS_LRCORNER	libs/lxdialog/dialog.h	75;"	d
+ACS_LTEE	libs/lxdialog/dialog.h	84;"	d
+ACS_RTEE	libs/lxdialog/dialog.h	87;"	d
+ACS_UARROW	libs/lxdialog/dialog.h	90;"	d
+ACS_ULCORNER	libs/lxdialog/dialog.h	66;"	d
+ACS_URCORNER	libs/lxdialog/dialog.h	72;"	d
+ACS_VLINE	libs/lxdialog/dialog.h	81;"	d
+ATTR_MAX	frontends/nconf/nconf.h	/^	ATTR_MAX$/;"	e	enum:__anon6
+BEGIN	libs/parser/lconf.c	144;"	d	file:
+BUF_SIZE	libs/lxdialog/dialog.h	61;"	d
+CHECKLIST_HEIGTH_MIN	libs/lxdialog/dialog.h	204;"	d
+CHECKLIST_WIDTH_MIN	libs/lxdialog/dialog.h	205;"	d
+COL_BTNACT	frontends/gconf/gconf.c	/^	COL_PIXVIS, COL_BTNVIS, COL_BTNACT, COL_BTNINC, COL_BTNRAD,$/;"	e	enum:__anon5	file:
+COL_BTNINC	frontends/gconf/gconf.c	/^	COL_PIXVIS, COL_BTNVIS, COL_BTNACT, COL_BTNINC, COL_BTNRAD,$/;"	e	enum:__anon5	file:
+COL_BTNRAD	frontends/gconf/gconf.c	/^	COL_PIXVIS, COL_BTNVIS, COL_BTNACT, COL_BTNINC, COL_BTNRAD,$/;"	e	enum:__anon5	file:
+COL_BTNVIS	frontends/gconf/gconf.c	/^	COL_PIXVIS, COL_BTNVIS, COL_BTNACT, COL_BTNINC, COL_BTNRAD,$/;"	e	enum:__anon5	file:
+COL_COLOR	frontends/gconf/gconf.c	/^	COL_MENU, COL_COLOR, COL_EDIT, COL_PIXBUF,$/;"	e	enum:__anon5	file:
+COL_EDIT	frontends/gconf/gconf.c	/^	COL_MENU, COL_COLOR, COL_EDIT, COL_PIXBUF,$/;"	e	enum:__anon5	file:
+COL_MENU	frontends/gconf/gconf.c	/^	COL_MENU, COL_COLOR, COL_EDIT, COL_PIXBUF,$/;"	e	enum:__anon5	file:
+COL_MOD	frontends/gconf/gconf.c	/^	COL_OPTION, COL_NAME, COL_NO, COL_MOD, COL_YES, COL_VALUE,$/;"	e	enum:__anon5	file:
+COL_NAME	frontends/gconf/gconf.c	/^	COL_OPTION, COL_NAME, COL_NO, COL_MOD, COL_YES, COL_VALUE,$/;"	e	enum:__anon5	file:
+COL_NO	frontends/gconf/gconf.c	/^	COL_OPTION, COL_NAME, COL_NO, COL_MOD, COL_YES, COL_VALUE,$/;"	e	enum:__anon5	file:
+COL_NUMBER	frontends/gconf/gconf.c	/^	COL_NUMBER$/;"	e	enum:__anon5	file:
+COL_OPTION	frontends/gconf/gconf.c	/^	COL_OPTION, COL_NAME, COL_NO, COL_MOD, COL_YES, COL_VALUE,$/;"	e	enum:__anon5	file:
+COL_PIXBUF	frontends/gconf/gconf.c	/^	COL_MENU, COL_COLOR, COL_EDIT, COL_PIXBUF,$/;"	e	enum:__anon5	file:
+COL_PIXVIS	frontends/gconf/gconf.c	/^	COL_PIXVIS, COL_BTNVIS, COL_BTNACT, COL_BTNINC, COL_BTNRAD,$/;"	e	enum:__anon5	file:
+COL_VALUE	frontends/gconf/gconf.c	/^	COL_OPTION, COL_NAME, COL_NO, COL_MOD, COL_YES, COL_VALUE,$/;"	e	enum:__anon5	file:
+COL_YES	frontends/gconf/gconf.c	/^	COL_OPTION, COL_NAME, COL_NO, COL_MOD, COL_YES, COL_VALUE,$/;"	e	enum:__anon5	file:
+COMMAND	libs/parser/lconf.c	842;"	d	file:
+CONFIG_	libs/parser/lkc.h	40;"	d
+CONFIG_	libs/parser/lkc.h	46;"	d
+CONFIG_	libs/parser/lkc.h	47;"	d
+CONFIG_prefix	libs/parser/lkc.h	/^static inline const char *CONFIG_prefix(void)$/;"	f
+CURS_MACROS	libs/lxdialog/dialog.h	36;"	d
+ConfigInfoView	frontends/qconf/qconf.cc	/^ConfigInfoView::ConfigInfoView(QWidget* parent, const char *name)$/;"	f	class:ConfigInfoView
+ConfigInfoView	frontends/qconf/qconf.h	/^class ConfigInfoView : public Q3TextBrowser {$/;"	c
+ConfigItem	frontends/qconf/qconf.h	/^	ConfigItem(ConfigItem *parent, ConfigItem *after, struct menu *m, bool v)$/;"	f	class:ConfigItem
+ConfigItem	frontends/qconf/qconf.h	/^	ConfigItem(Q3ListView *parent, ConfigItem *after, bool v)$/;"	f	class:ConfigItem
+ConfigItem	frontends/qconf/qconf.h	/^	ConfigItem(Q3ListView *parent, ConfigItem *after, struct menu *m, bool v)$/;"	f	class:ConfigItem
+ConfigItem	frontends/qconf/qconf.h	/^class ConfigItem : public Q3ListViewItem {$/;"	c
+ConfigLineEdit	frontends/qconf/qconf.cc	/^ConfigLineEdit::ConfigLineEdit(ConfigView* parent)$/;"	f	class:ConfigLineEdit
+ConfigLineEdit	frontends/qconf/qconf.h	/^class ConfigLineEdit : public QLineEdit {$/;"	c
+ConfigList	frontends/qconf/qconf.cc	/^ConfigList::ConfigList(ConfigView* p, const char *name)$/;"	f	class:ConfigList
+ConfigList	frontends/qconf/qconf.h	/^class ConfigList : public Q3ListView {$/;"	c
+ConfigMainWindow	frontends/qconf/qconf.cc	/^ConfigMainWindow::ConfigMainWindow(void)$/;"	f	class:ConfigMainWindow
+ConfigMainWindow	frontends/qconf/qconf.h	/^class ConfigMainWindow : public Q3MainWindow {$/;"	c
+ConfigSearchWindow	frontends/qconf/qconf.cc	/^ConfigSearchWindow::ConfigSearchWindow(ConfigMainWindow* parent, const char *name)$/;"	f	class:ConfigSearchWindow
+ConfigSearchWindow	frontends/qconf/qconf.h	/^class ConfigSearchWindow : public QDialog {$/;"	c
+ConfigSettings	frontends/qconf/qconf.h	/^class ConfigSettings : public QSettings {$/;"	c
+ConfigView	frontends/qconf/qconf.cc	/^ConfigView::ConfigView(QWidget* parent, const char *name)$/;"	f	class:ConfigView
+ConfigView	frontends/qconf/qconf.h	/^class ConfigView : public Q3VBox {$/;"	c
+CreateProcess	scripts/.autostuff/scripts/ltmain.sh	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+DEBUG_EXPR	libs/parser/expr.c	12;"	d	file:
+DEBUG_PARSE	libs/parser/yconf.c	94;"	d	file:
+DIALOG_BOX	frontends/nconf/nconf.h	/^	DIALOG_BOX,$/;"	e	enum:__anon6
+DIALOG_MENU_BACK	frontends/nconf/nconf.h	/^	DIALOG_MENU_BACK,$/;"	e	enum:__anon6
+DIALOG_MENU_FORE	frontends/nconf/nconf.h	/^	DIALOG_MENU_FORE,$/;"	e	enum:__anon6
+DIALOG_TEXT	frontends/nconf/nconf.h	/^	DIALOG_TEXT,$/;"	e	enum:__anon6
+DLG_COLOR	libs/lxdialog/util.c	64;"	d	file:
+ECHO	libs/parser/lconf.c	937;"	d	file:
+EOB_ACT_CONTINUE_SCAN	libs/parser/lconf.c	187;"	d	file:
+EOB_ACT_END_OF_FILE	libs/parser/lconf.c	188;"	d	file:
+EOB_ACT_LAST_MATCH	libs/parser/lconf.c	189;"	d	file:
+ERRDISPLAYTOOSMALL	libs/lxdialog/dialog.h	97;"	d
+EXIT_SUCCESS	libs/parser/yconf.c	343;"	d	file:
+EXIT_SUCCESS	libs/parser/yconf.c	371;"	d	file:
+EXPR_AND	libs/parser/expr.h	46;"	d
+EXPR_H	libs/parser/expr.h	7;"	d
+EXPR_NOT	libs/parser/expr.h	47;"	d
+EXPR_OR	libs/parser/expr.h	45;"	d
+E_AND	libs/parser/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_LIST, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_EQUAL	libs/parser/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_LIST, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_LIST	libs/parser/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_LIST, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_NONE	libs/parser/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_LIST, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_NOT	libs/parser/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_LIST, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_OR	libs/parser/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_LIST, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_RANGE	libs/parser/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_LIST, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_SYMBOL	libs/parser/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_LIST, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+E_UNEQUAL	libs/parser/expr.h	/^	E_NONE, E_OR, E_AND, E_NOT, E_EQUAL, E_UNEQUAL, E_LIST, E_SYMBOL, E_RANGE$/;"	e	enum:expr_type
+FIND_NEXT_MATCH_DOWN	frontends/nconf/nconf.c	/^	FIND_NEXT_MATCH_DOWN, FIND_NEXT_MATCH_UP} match_f;$/;"	e	enum:__anon8	file:
+FIND_NEXT_MATCH_UP	frontends/nconf/nconf.c	/^	FIND_NEXT_MATCH_DOWN, FIND_NEXT_MATCH_UP} match_f;$/;"	e	enum:__anon8	file:
+FLEXINT_H	libs/parser/lconf.c	48;"	d	file:
+FLEX_BETA	libs/parser/lconf.c	32;"	d	file:
+FLEX_SCANNER	libs/parser/lconf.c	27;"	d	file:
+FULL_VIEW	frontends/gconf/gconf.c	/^	SINGLE_VIEW, SPLIT_VIEW, FULL_VIEW$/;"	e	enum:__anon3	file:
+FUNCTION_HIGHLIGHT	frontends/nconf/nconf.h	/^	FUNCTION_HIGHLIGHT,$/;"	e	enum:__anon6
+FUNCTION_TEXT	frontends/nconf/nconf.h	/^	FUNCTION_TEXT,$/;"	e	enum:__anon6
+F_BACK	frontends/nconf/nconf.h	/^	F_BACK = 5,$/;"	e	enum:__anon7
+F_CONF	frontends/nconf/nconf.h	/^	F_CONF = 4,$/;"	e	enum:__anon7
+F_EXIT	frontends/nconf/nconf.h	/^	F_EXIT = 9,$/;"	e	enum:__anon7
+F_HELP	frontends/nconf/nconf.h	/^	F_HELP = 1,$/;"	e	enum:__anon7
+F_INSTS	frontends/nconf/nconf.h	/^	F_INSTS = 3,$/;"	e	enum:__anon7
+F_LOAD	frontends/nconf/nconf.h	/^	F_LOAD = 7,$/;"	e	enum:__anon7
+F_SAVE	frontends/nconf/nconf.h	/^	F_SAVE = 6,$/;"	e	enum:__anon7
+F_SEARCH	frontends/nconf/nconf.h	/^	F_SEARCH = 8,$/;"	e	enum:__anon7
+F_SYMBOL	frontends/nconf/nconf.h	/^	F_SYMBOL = 2,$/;"	e	enum:__anon7
+HELP	libs/parser/lconf.c	843;"	d	file:
+INITIAL	libs/parser/lconf.c	841;"	d	file:
+INPUTBOX_HEIGTH_MIN	libs/lxdialog/dialog.h	206;"	d
+INPUTBOX_WIDTH_MIN	libs/lxdialog/dialog.h	207;"	d
+INPUT_BOX	frontends/nconf/nconf.h	/^	INPUT_BOX,$/;"	e	enum:__anon6
+INPUT_FIELD	frontends/nconf/nconf.h	/^	INPUT_FIELD,$/;"	e	enum:__anon6
+INPUT_HEADING	frontends/nconf/nconf.h	/^	INPUT_HEADING,$/;"	e	enum:__anon6
+INPUT_TEXT	frontends/nconf/nconf.h	/^	INPUT_TEXT,$/;"	e	enum:__anon6
+INT16_MAX	libs/parser/lconf.c	90;"	d	file:
+INT16_MIN	libs/parser/lconf.c	81;"	d	file:
+INT32_MAX	libs/parser/lconf.c	93;"	d	file:
+INT32_MIN	libs/parser/lconf.c	84;"	d	file:
+INT8_MAX	libs/parser/lconf.c	87;"	d	file:
+INT8_MIN	libs/parser/lconf.c	78;"	d	file:
+JUMP_NB	libs/parser/expr.h	187;"	d
+KEY_ESC	libs/lxdialog/dialog.h	58;"	d
+LINE_GROWTH	libs/parser/confdata.c	190;"	d	file:
+LIST_H	libs/parser/list.h	2;"	d
+LIST_HEAD	libs/parser/list.h	30;"	d
+LIST_HEAD_INIT	libs/parser/list.h	28;"	d
+LIST_POISON1	libs/parser/list.h	117;"	d
+LIST_POISON2	libs/parser/list.h	118;"	d
+LKC_H	libs/parser/lkc.h	7;"	d
+LOCALEDIR	libs/parser/lkc.h	34;"	d
+MAIN_HEADING	frontends/nconf/nconf.h	/^	MAIN_HEADING,$/;"	e	enum:__anon6
+MAIN_MENU_BACK	frontends/nconf/nconf.h	/^	MAIN_MENU_BACK,$/;"	e	enum:__anon6
+MAIN_MENU_BOX	frontends/nconf/nconf.h	/^	MAIN_MENU_BOX,$/;"	e	enum:__anon6
+MAIN_MENU_FORE	frontends/nconf/nconf.h	/^	MAIN_MENU_FORE,$/;"	e	enum:__anon6
+MAIN_MENU_GREY	frontends/nconf/nconf.h	/^	MAIN_MENU_GREY,$/;"	e	enum:__anon6
+MAIN_MENU_HEADING	frontends/nconf/nconf.h	/^	MAIN_MENU_HEADING,$/;"	e	enum:__anon6
+MATCH_TINKER_PATTERN_DOWN	frontends/nconf/nconf.c	/^typedef enum {MATCH_TINKER_PATTERN_UP, MATCH_TINKER_PATTERN_DOWN,$/;"	e	enum:__anon8	file:
+MATCH_TINKER_PATTERN_UP	frontends/nconf/nconf.c	/^typedef enum {MATCH_TINKER_PATTERN_UP, MATCH_TINKER_PATTERN_DOWN,$/;"	e	enum:__anon8	file:
+MAX	libs/lxdialog/dialog.h	63;"	d
+MAXITEMSTR	libs/lxdialog/dialog.h	171;"	d
+MAX_LEN	libs/lxdialog/dialog.h	60;"	d
+MAX_MENU_ITEMS	frontends/nconf/nconf.c	254;"	d	file:
+MENUBOX_HEIGTH_MIN	libs/lxdialog/dialog.h	208;"	d
+MENUBOX_WIDTH_MIN	libs/lxdialog/dialog.h	209;"	d
+MENU_CHANGED	libs/parser/expr.h	177;"	d
+MENU_ROOT	libs/parser/expr.h	178;"	d
+MIN	libs/lxdialog/dialog.h	62;"	d
+M_EVENT	libs/lxdialog/dialog.h	257;"	d
+NORMAL	frontends/nconf/nconf.h	/^	NORMAL = 1,$/;"	e	enum:__anon6
+N_	libs/parser/lkc.h	37;"	d
+OLD_NCURSES	libs/lxdialog/dialog.h	49;"	d
+OLD_NCURSES	libs/lxdialog/dialog.h	53;"	d
+OPT_ALL	frontends/gconf/gconf.c	/^	OPT_NORMAL, OPT_ALL, OPT_PROMPT$/;"	e	enum:__anon4	file:
+OPT_NORMAL	frontends/gconf/gconf.c	/^	OPT_NORMAL, OPT_ALL, OPT_PROMPT$/;"	e	enum:__anon4	file:
+OPT_PROMPT	frontends/gconf/gconf.c	/^	OPT_NORMAL, OPT_ALL, OPT_PROMPT$/;"	e	enum:__anon4	file:
+P	libs/parser/lkc.h	24;"	d
+P	libs/parser/lkc.h	26;"	d
+PACKAGE	libs/parser/lkc.h	31;"	d
+PARAM	libs/parser/lconf.c	845;"	d	file:
+PRINTD	libs/parser/yconf.c	93;"	d	file:
+P_CHOICE	libs/parser/expr.h	/^	P_CHOICE,   \/* choice value *\/$/;"	e	enum:prop_type
+P_COMMENT	libs/parser/expr.h	/^	P_COMMENT,  \/* text associated with a comment *\/$/;"	e	enum:prop_type
+P_DEFAULT	libs/parser/expr.h	/^	P_DEFAULT,  \/* default y *\/$/;"	e	enum:prop_type
+P_ENV	libs/parser/expr.h	/^	P_ENV,      \/* value from environment variable *\/$/;"	e	enum:prop_type
+P_MENU	libs/parser/expr.h	/^	P_MENU,     \/* prompt associated with a menuconfig option *\/$/;"	e	enum:prop_type
+P_PROMPT	libs/parser/expr.h	/^	P_PROMPT,   \/* prompt "foo prompt" or "BAZ Value" *\/$/;"	e	enum:prop_type
+P_RANGE	libs/parser/expr.h	/^	P_RANGE,    \/* range 7..100 (for a symbol) *\/$/;"	e	enum:prop_type
+P_SELECT	libs/parser/expr.h	/^	P_SELECT,   \/* select BAR *\/$/;"	e	enum:prop_type
+P_SYMBOL	libs/parser/expr.h	/^	P_SYMBOL,   \/* where a symbol is defined *\/$/;"	e	enum:prop_type
+P_UNKNOWN	libs/parser/expr.h	/^	P_UNKNOWN,$/;"	e	enum:prop_type
+Parent	frontends/qconf/qconf.h	/^	typedef class Q3ListView Parent;$/;"	t	class:ConfigList	typeref:class:ConfigList::Q3ListView
+Parent	frontends/qconf/qconf.h	/^	typedef class Q3ListViewItem Parent;$/;"	t	class:ConfigItem	typeref:class:ConfigItem::Q3ListViewItem
+Parent	frontends/qconf/qconf.h	/^	typedef class Q3TextBrowser Parent;$/;"	t	class:ConfigInfoView	typeref:class:ConfigInfoView::Q3TextBrowser
+Parent	frontends/qconf/qconf.h	/^	typedef class Q3VBox Parent;$/;"	t	class:ConfigView	typeref:class:ConfigView::Q3VBox
+Parent	frontends/qconf/qconf.h	/^	typedef class QDialog Parent;$/;"	t	class:ConfigSearchWindow	typeref:class:ConfigSearchWindow::QDialog
+Parent	frontends/qconf/qconf.h	/^	typedef class QLineEdit Parent;$/;"	t	class:ConfigLineEdit	typeref:class:ConfigLineEdit::QLineEdit
+Q3Action	frontends/qconf/qconf.h	21;"	d
+Q3FileDialog	frontends/qconf/qconf.h	24;"	d
+Q3ListView	frontends/qconf/qconf.h	16;"	d
+Q3ListViewItem	frontends/qconf/qconf.h	17;"	d
+Q3ListViewItemIterator	frontends/qconf/qconf.h	23;"	d
+Q3MainWindow	frontends/qconf/qconf.h	20;"	d
+Q3PopupMenu	frontends/qconf/qconf.h	15;"	d
+Q3TextBrowser	frontends/qconf/qconf.h	19;"	d
+Q3ToolBar	frontends/qconf/qconf.h	22;"	d
+Q3VBox	frontends/qconf/qconf.h	18;"	d
+Q3ValueList	frontends/qconf/qconf.h	14;"	d
+REJECT	libs/parser/lconf.c	770;"	d	file:
+SCROLLWIN_BOX	frontends/nconf/nconf.h	/^	SCROLLWIN_BOX,$/;"	e	enum:__anon6
+SCROLLWIN_HEADING	frontends/nconf/nconf.h	/^	SCROLLWIN_HEADING,$/;"	e	enum:__anon6
+SCROLLWIN_TEXT	frontends/nconf/nconf.h	/^	SCROLLWIN_TEXT,$/;"	e	enum:__anon6
+SINGLE_VIEW	frontends/gconf/gconf.c	/^	SINGLE_VIEW, SPLIT_VIEW, FULL_VIEW$/;"	e	enum:__anon3	file:
+SPLIT_VIEW	frontends/gconf/gconf.c	/^	SINGLE_VIEW, SPLIT_VIEW, FULL_VIEW$/;"	e	enum:__anon3	file:
+SRCTREE	libs/parser/lkc.h	28;"	d
+START_STRSIZE	libs/parser/lconf.c	790;"	d	file:
+STRING	libs/parser/lconf.c	844;"	d	file:
+SYMBOL_AUTO	libs/parser/expr.h	98;"	d
+SYMBOL_CHANGED	libs/parser/expr.h	97;"	d
+SYMBOL_CHECK	libs/parser/expr.h	91;"	d
+SYMBOL_CHECKED	libs/parser/expr.h	99;"	d
+SYMBOL_CHOICE	libs/parser/expr.h	92;"	d
+SYMBOL_CHOICEVAL	libs/parser/expr.h	93;"	d
+SYMBOL_CONST	libs/parser/expr.h	90;"	d
+SYMBOL_DEF	libs/parser/expr.h	103;"	d
+SYMBOL_DEF3	libs/parser/expr.h	106;"	d
+SYMBOL_DEF4	libs/parser/expr.h	107;"	d
+SYMBOL_DEF_AUTO	libs/parser/expr.h	105;"	d
+SYMBOL_DEF_USER	libs/parser/expr.h	104;"	d
+SYMBOL_HASHSIZE	libs/parser/expr.h	113;"	d
+SYMBOL_MAXLENGTH	libs/parser/expr.h	112;"	d
+SYMBOL_NEED_SET_CHOICE_VALUES	libs/parser/expr.h	110;"	d
+SYMBOL_OPTIONAL	libs/parser/expr.h	95;"	d
+SYMBOL_VALID	libs/parser/expr.h	94;"	d
+SYMBOL_WARNED	libs/parser/expr.h	100;"	d
+SYMBOL_WRITE	libs/parser/expr.h	96;"	d
+S_BOOLEAN	libs/parser/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING, S_OTHER$/;"	e	enum:symbol_type
+S_DEF_AUTO	libs/parser/expr.h	/^	S_DEF_AUTO,		\/* values read from auto.conf *\/$/;"	e	enum:__anon2
+S_DEF_COUNT	libs/parser/expr.h	/^	S_DEF_COUNT$/;"	e	enum:__anon2
+S_DEF_DEF3	libs/parser/expr.h	/^	S_DEF_DEF3,		\/* Reserved for UI usage *\/$/;"	e	enum:__anon2
+S_DEF_DEF4	libs/parser/expr.h	/^	S_DEF_DEF4,		\/* Reserved for UI usage *\/$/;"	e	enum:__anon2
+S_DEF_USER	libs/parser/expr.h	/^	S_DEF_USER,		\/* main user value *\/$/;"	e	enum:__anon2
+S_HEX	libs/parser/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING, S_OTHER$/;"	e	enum:symbol_type
+S_INT	libs/parser/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING, S_OTHER$/;"	e	enum:symbol_type
+S_OTHER	libs/parser/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING, S_OTHER$/;"	e	enum:symbol_type
+S_STRING	libs/parser/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING, S_OTHER$/;"	e	enum:symbol_type
+S_TRISTATE	libs/parser/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING, S_OTHER$/;"	e	enum:symbol_type
+S_UNKNOWN	libs/parser/expr.h	/^	S_UNKNOWN, S_BOOLEAN, S_TRISTATE, S_INT, S_HEX, S_STRING, S_OTHER$/;"	e	enum:symbol_type
+TAB	libs/lxdialog/dialog.h	59;"	d
+TEXTBOX_HEIGTH_MIN	libs/lxdialog/dialog.h	210;"	d
+TEXTBOX_WIDTH_MIN	libs/lxdialog/dialog.h	211;"	d
+TF_COMMAND	libs/parser/lkc.h	49;"	d
+TF_OPTION	libs/parser/lkc.h	51;"	d
+TF_PARAM	libs/parser/lkc.h	50;"	d
+TR	libs/lxdialog/dialog.h	56;"	d
+T_AND	libs/parser/yconf.c	/^     T_AND = 288,$/;"	e	enum:yytokentype	file:
+T_AND	libs/parser/yconf.c	202;"	d	file:
+T_CHOICE	libs/parser/yconf.c	/^     T_CHOICE = 262,$/;"	e	enum:yytokentype	file:
+T_CHOICE	libs/parser/yconf.c	176;"	d	file:
+T_CLOSE_PAREN	libs/parser/yconf.c	/^     T_CLOSE_PAREN = 284,$/;"	e	enum:yytokentype	file:
+T_CLOSE_PAREN	libs/parser/yconf.c	198;"	d	file:
+T_COMMENT	libs/parser/yconf.c	/^     T_COMMENT = 264,$/;"	e	enum:yytokentype	file:
+T_COMMENT	libs/parser/yconf.c	178;"	d	file:
+T_CONFIG	libs/parser/yconf.c	/^     T_CONFIG = 265,$/;"	e	enum:yytokentype	file:
+T_CONFIG	libs/parser/yconf.c	179;"	d	file:
+T_DEFAULT	libs/parser/yconf.c	/^     T_DEFAULT = 275,$/;"	e	enum:yytokentype	file:
+T_DEFAULT	libs/parser/yconf.c	189;"	d	file:
+T_DEPENDS	libs/parser/yconf.c	/^     T_DEPENDS = 271,$/;"	e	enum:yytokentype	file:
+T_DEPENDS	libs/parser/yconf.c	185;"	d	file:
+T_ENDCHOICE	libs/parser/yconf.c	/^     T_ENDCHOICE = 263,$/;"	e	enum:yytokentype	file:
+T_ENDCHOICE	libs/parser/yconf.c	177;"	d	file:
+T_ENDIF	libs/parser/yconf.c	/^     T_ENDIF = 270,$/;"	e	enum:yytokentype	file:
+T_ENDIF	libs/parser/yconf.c	184;"	d	file:
+T_ENDMENU	libs/parser/yconf.c	/^     T_ENDMENU = 260,$/;"	e	enum:yytokentype	file:
+T_ENDMENU	libs/parser/yconf.c	174;"	d	file:
+T_EOL	libs/parser/yconf.c	/^     T_EOL = 286,$/;"	e	enum:yytokentype	file:
+T_EOL	libs/parser/yconf.c	200;"	d	file:
+T_EQUAL	libs/parser/yconf.c	/^     T_EQUAL = 289,$/;"	e	enum:yytokentype	file:
+T_EQUAL	libs/parser/yconf.c	203;"	d	file:
+T_HELP	libs/parser/yconf.c	/^     T_HELP = 267,$/;"	e	enum:yytokentype	file:
+T_HELP	libs/parser/yconf.c	181;"	d	file:
+T_HELPTEXT	libs/parser/yconf.c	/^     T_HELPTEXT = 268,$/;"	e	enum:yytokentype	file:
+T_HELPTEXT	libs/parser/yconf.c	182;"	d	file:
+T_IF	libs/parser/yconf.c	/^     T_IF = 269,$/;"	e	enum:yytokentype	file:
+T_IF	libs/parser/yconf.c	183;"	d	file:
+T_MAINMENU	libs/parser/yconf.c	/^     T_MAINMENU = 258,$/;"	e	enum:yytokentype	file:
+T_MAINMENU	libs/parser/yconf.c	172;"	d	file:
+T_MENU	libs/parser/yconf.c	/^     T_MENU = 259,$/;"	e	enum:yytokentype	file:
+T_MENU	libs/parser/yconf.c	173;"	d	file:
+T_MENUCONFIG	libs/parser/yconf.c	/^     T_MENUCONFIG = 266,$/;"	e	enum:yytokentype	file:
+T_MENUCONFIG	libs/parser/yconf.c	180;"	d	file:
+T_NOT	libs/parser/yconf.c	/^     T_NOT = 290$/;"	e	enum:yytokentype	file:
+T_NOT	libs/parser/yconf.c	204;"	d	file:
+T_ON	libs/parser/yconf.c	/^     T_ON = 280,$/;"	e	enum:yytokentype	file:
+T_ON	libs/parser/yconf.c	194;"	d	file:
+T_OPEN_PAREN	libs/parser/yconf.c	/^     T_OPEN_PAREN = 285,$/;"	e	enum:yytokentype	file:
+T_OPEN_PAREN	libs/parser/yconf.c	199;"	d	file:
+T_OPTION	libs/parser/yconf.c	/^     T_OPTION = 279,$/;"	e	enum:yytokentype	file:
+T_OPTION	libs/parser/yconf.c	193;"	d	file:
+T_OPTIONAL	libs/parser/yconf.c	/^     T_OPTIONAL = 272,$/;"	e	enum:yytokentype	file:
+T_OPTIONAL	libs/parser/yconf.c	186;"	d	file:
+T_OPT_DEFCONFIG_LIST	libs/parser/lkc.h	62;"	d
+T_OPT_ENV	libs/parser/lkc.h	63;"	d
+T_OPT_MODULES	libs/parser/lkc.h	61;"	d
+T_OR	libs/parser/yconf.c	/^     T_OR = 287,$/;"	e	enum:yytokentype	file:
+T_OR	libs/parser/yconf.c	201;"	d	file:
+T_PROMPT	libs/parser/yconf.c	/^     T_PROMPT = 273,$/;"	e	enum:yytokentype	file:
+T_PROMPT	libs/parser/yconf.c	187;"	d	file:
+T_RANGE	libs/parser/yconf.c	/^     T_RANGE = 277,$/;"	e	enum:yytokentype	file:
+T_RANGE	libs/parser/yconf.c	191;"	d	file:
+T_SELECT	libs/parser/yconf.c	/^     T_SELECT = 276,$/;"	e	enum:yytokentype	file:
+T_SELECT	libs/parser/yconf.c	190;"	d	file:
+T_SOURCE	libs/parser/yconf.c	/^     T_SOURCE = 261,$/;"	e	enum:yytokentype	file:
+T_SOURCE	libs/parser/yconf.c	175;"	d	file:
+T_TYPE	libs/parser/yconf.c	/^     T_TYPE = 274,$/;"	e	enum:yytokentype	file:
+T_TYPE	libs/parser/yconf.c	188;"	d	file:
+T_UNEQUAL	libs/parser/yconf.c	/^     T_UNEQUAL = 283,$/;"	e	enum:yytokentype	file:
+T_UNEQUAL	libs/parser/yconf.c	197;"	d	file:
+T_VISIBLE	libs/parser/yconf.c	/^     T_VISIBLE = 278,$/;"	e	enum:yytokentype	file:
+T_VISIBLE	libs/parser/yconf.c	192;"	d	file:
+T_WORD	libs/parser/yconf.c	/^     T_WORD = 281,$/;"	e	enum:yytokentype	file:
+T_WORD	libs/parser/yconf.c	195;"	d	file:
+T_WORD_QUOTE	libs/parser/yconf.c	/^     T_WORD_QUOTE = 282,$/;"	e	enum:yytokentype	file:
+T_WORD_QUOTE	libs/parser/yconf.c	196;"	d	file:
+UINT16_MAX	libs/parser/lconf.c	99;"	d	file:
+UINT32_MAX	libs/parser/lconf.c	102;"	d	file:
+UINT8_MAX	libs/parser/lconf.c	96;"	d	file:
+WINDOW_HEIGTH_MIN	libs/lxdialog/dialog.h	214;"	d
+WINDOW_WIDTH_MIN	libs/lxdialog/dialog.h	215;"	d
+YESNO_HEIGTH_MIN	libs/lxdialog/dialog.h	212;"	d
+YESNO_WIDTH_MIN	libs/lxdialog/dialog.h	213;"	d
+YYABORT	libs/parser/yconf.c	840;"	d	file:
+YYACCEPT	libs/parser/yconf.c	839;"	d	file:
+YYBACKUP	libs/parser/yconf.c	861;"	d	file:
+YYBISON	libs/parser/yconf.c	44;"	d	file:
+YYBISON_VERSION	libs/parser/yconf.c	47;"	d	file:
+YYCASE_	libs/parser/yconf.c	1293;"	d	file:
+YYCASE_	libs/parser/yconf.c	1303;"	d	file:
+YYCOPY	libs/parser/yconf.c	437;"	d	file:
+YYCOPY	libs/parser/yconf.c	440;"	d	file:
+YYCOPY_NEEDED	libs/parser/yconf.c	412;"	d	file:
+YYDEBUG	libs/parser/yconf.c	113;"	d	file:
+YYDPRINTF	libs/parser/yconf.c	1080;"	d	file:
+YYDPRINTF	libs/parser/yconf.c	931;"	d	file:
+YYEMPTY	libs/parser/yconf.c	836;"	d	file:
+YYEOF	libs/parser/yconf.c	837;"	d	file:
+YYERRCODE	libs/parser/yconf.c	879;"	d	file:
+YYERROR	libs/parser/yconf.c	841;"	d	file:
+YYERROR_VERBOSE	libs/parser/yconf.c	118;"	d	file:
+YYERROR_VERBOSE	libs/parser/yconf.c	119;"	d	file:
+YYERROR_VERBOSE	libs/parser/yconf.c	121;"	d	file:
+YYFAIL	libs/parser/yconf.c	851;"	d	file:
+YYFINAL	libs/parser/yconf.c	453;"	d	file:
+YYFPRINTF	libs/parser/yconf.c	928;"	d	file:
+YYFREE	libs/parser/yconf.c	382;"	d	file:
+YYID	libs/parser/yconf.c	/^YYID (int yyi)$/;"	f	file:
+YYID	libs/parser/yconf.c	306;"	d	file:
+YYINITDEPTH	libs/parser/yconf.c	1089;"	d	file:
+YYLAST	libs/parser/yconf.c	455;"	d	file:
+YYLEX	libs/parser/yconf.c	918;"	d	file:
+YYLEX	libs/parser/yconf.c	920;"	d	file:
+YYLLOC_DEFAULT	libs/parser/yconf.c	888;"	d	file:
+YYLSP_NEEDED	libs/parser/yconf.c	62;"	d	file:
+YYMALLOC	libs/parser/yconf.c	375;"	d	file:
+YYMAXDEPTH	libs/parser/yconf.c	1100;"	d	file:
+YYMAXUTOK	libs/parser/yconf.c	468;"	d	file:
+YYNNTS	libs/parser/yconf.c	460;"	d	file:
+YYNRULES	libs/parser/yconf.c	462;"	d	file:
+YYNSTATES	libs/parser/yconf.c	464;"	d	file:
+YYNTOKENS	libs/parser/yconf.c	458;"	d	file:
+YYPACT_NINF	libs/parser/yconf.c	695;"	d	file:
+YYPOPSTACK	libs/parser/yconf.c	1494;"	d	file:
+YYPULL	libs/parser/yconf.c	59;"	d	file:
+YYPURE	libs/parser/yconf.c	53;"	d	file:
+YYPUSH	libs/parser/yconf.c	56;"	d	file:
+YYRECOVERING	libs/parser/yconf.c	859;"	d	file:
+YYRHSLOC	libs/parser/yconf.c	886;"	d	file:
+YYSIZE_MAXIMUM	libs/parser/yconf.c	283;"	d	file:
+YYSIZE_T	libs/parser/yconf.c	271;"	d	file:
+YYSIZE_T	libs/parser/yconf.c	273;"	d	file:
+YYSIZE_T	libs/parser/yconf.c	277;"	d	file:
+YYSIZE_T	libs/parser/yconf.c	279;"	d	file:
+YYSKELETON_NAME	libs/parser/yconf.c	50;"	d	file:
+YYSTACK_ALLOC	libs/parser/yconf.c	329;"	d	file:
+YYSTACK_ALLOC	libs/parser/yconf.c	333;"	d	file:
+YYSTACK_ALLOC	libs/parser/yconf.c	338;"	d	file:
+YYSTACK_ALLOC	libs/parser/yconf.c	361;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	libs/parser/yconf.c	358;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	libs/parser/yconf.c	364;"	d	file:
+YYSTACK_BYTES	libs/parser/yconf.c	408;"	d	file:
+YYSTACK_FREE	libs/parser/yconf.c	352;"	d	file:
+YYSTACK_FREE	libs/parser/yconf.c	362;"	d	file:
+YYSTACK_GAP_MAXIMUM	libs/parser/yconf.c	404;"	d	file:
+YYSTACK_RELOCATE	libs/parser/yconf.c	419;"	d	file:
+YYSTATE	libs/parser/lconf.c	151;"	d	file:
+YYSTYPE	libs/parser/yconf.c	/^typedef union YYSTYPE$/;"	u	file:
+YYSTYPE	libs/parser/yconf.c	/^} YYSTYPE;$/;"	t	typeref:union:YYSTYPE	file:
+YYSTYPE_IS_DECLARED	libs/parser/yconf.c	226;"	d	file:
+YYSTYPE_IS_TRIVIAL	libs/parser/yconf.c	224;"	d	file:
+YYTABLES_NAME	libs/parser/lconf.c	2313;"	d	file:
+YYTABLE_NINF	libs/parser/yconf.c	733;"	d	file:
+YYTERROR	libs/parser/yconf.c	878;"	d	file:
+YYTOKENTYPE	libs/parser/yconf.c	132;"	d	file:
+YYTOKEN_TABLE	libs/parser/yconf.c	126;"	d	file:
+YYTRANSLATE	libs/parser/yconf.c	470;"	d	file:
+YYUNDEFTOK	libs/parser/yconf.c	467;"	d	file:
+YYUSE	libs/parser/yconf.c	299;"	d	file:
+YYUSE	libs/parser/yconf.c	301;"	d	file:
+YY_	libs/parser/yconf.c	289;"	d	file:
+YY_	libs/parser/yconf.c	293;"	d	file:
+YY_AT_BOL	libs/parser/lconf.c	358;"	d	file:
+YY_BREAK	libs/parser/lconf.c	1000;"	d	file:
+YY_BUFFER_EOF_PENDING	libs/parser/lconf.c	274;"	d	file:
+YY_BUFFER_NEW	libs/parser/lconf.c	262;"	d	file:
+YY_BUFFER_NORMAL	libs/parser/lconf.c	263;"	d	file:
+YY_BUFFER_STATE	libs/parser/lconf.c	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUF_SIZE	libs/parser/lconf.c	168;"	d	file:
+YY_BUF_SIZE	libs/parser/lconf.c	170;"	d	file:
+YY_CHAR	libs/parser/lconf.c	/^typedef unsigned char YY_CHAR;$/;"	t	file:
+YY_CURRENT_BUFFER	libs/parser/lconf.c	290;"	d	file:
+YY_CURRENT_BUFFER_LVALUE	libs/parser/lconf.c	297;"	d	file:
+YY_DECL	libs/parser/lconf.c	988;"	d	file:
+YY_DECL_IS_OURS	libs/parser/lconf.c	984;"	d	file:
+YY_DO_BEFORE_ACTION	libs/parser/lconf.c	706;"	d	file:
+YY_END_OF_BUFFER	libs/parser/lconf.c	714;"	d	file:
+YY_END_OF_BUFFER_CHAR	libs/parser/lconf.c	159;"	d	file:
+YY_EXIT_FAILURE	libs/parser/lconf.c	2111;"	d	file:
+YY_EXTRA_TYPE	libs/parser/lconf.c	856;"	d	file:
+YY_FATAL_ERROR	libs/parser/lconf.c	975;"	d	file:
+YY_FLEX_MAJOR_VERSION	libs/parser/lconf.c	28;"	d	file:
+YY_FLEX_MINOR_VERSION	libs/parser/lconf.c	29;"	d	file:
+YY_FLEX_SUBMINOR_VERSION	libs/parser/lconf.c	30;"	d	file:
+YY_FLUSH_BUFFER	libs/parser/lconf.c	326;"	d	file:
+YY_INPUT	libs/parser/lconf.c	944;"	d	file:
+YY_INT_ALIGNED	libs/parser/lconf.c	4;"	d	file:
+YY_LESS_LINENO	libs/parser/lconf.c	191;"	d	file:
+YY_LOCATION_PRINT	libs/parser/yconf.c	911;"	d	file:
+YY_MORE_ADJ	libs/parser/lconf.c	772;"	d	file:
+YY_NEW_FILE	libs/parser/lconf.c	157;"	d	file:
+YY_NO_INPUT	libs/parser/lconf.c	775;"	d	file:
+YY_NULL	libs/parser/lconf.c	131;"	d	file:
+YY_NUM_RULES	libs/parser/lconf.c	713;"	d	file:
+YY_READ_BUF_SIZE	libs/parser/lconf.c	926;"	d	file:
+YY_READ_BUF_SIZE	libs/parser/lconf.c	928;"	d	file:
+YY_REDUCE_PRINT	libs/parser/yconf.c	1070;"	d	file:
+YY_REDUCE_PRINT	libs/parser/yconf.c	1083;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	libs/parser/lconf.c	773;"	d	file:
+YY_RULE_SETUP	libs/parser/lconf.c	1003;"	d	file:
+YY_SC_TO_UI	libs/parser/lconf.c	138;"	d	file:
+YY_SKIP_YYWRAP	libs/parser/lconf.c	363;"	d	file:
+YY_STACK_PRINT	libs/parser/yconf.c	1032;"	d	file:
+YY_STACK_PRINT	libs/parser/yconf.c	1082;"	d	file:
+YY_START	libs/parser/lconf.c	150;"	d	file:
+YY_START_STACK_INCR	libs/parser/lconf.c	970;"	d	file:
+YY_STATE_BUF_SIZE	libs/parser/lconf.c	176;"	d	file:
+YY_STATE_EOF	libs/parser/lconf.c	154;"	d	file:
+YY_STRUCT_YY_BUFFER_STATE	libs/parser/lconf.c	215;"	d	file:
+YY_SYMBOL_PRINT	libs/parser/yconf.c	1081;"	d	file:
+YY_SYMBOL_PRINT	libs/parser/yconf.c	937;"	d	file:
+YY_TYPEDEF_YY_BUFFER_STATE	libs/parser/lconf.c	179;"	d	file:
+YY_TYPEDEF_YY_SIZE_T	libs/parser/lconf.c	210;"	d	file:
+YY_USER_ACTION	libs/parser/lconf.c	995;"	d	file:
+YY_USE_CONST	libs/parser/lconf.c	112;"	d	file:
+YY_USE_CONST	libs/parser/lconf.c	119;"	d	file:
+_	frontends/qconf/qconf.cc	53;"	d	file:
+_	frontends/qconf/qconf.cc	54;"	d	file:
+_	libs/parser/lkc.h	36;"	d
+_GNU_SOURCE	frontends/nconf/nconf.c	8;"	d	file:
+__STDC_LIMIT_MACROS	libs/parser/lconf.c	58;"	d	file:
+__expr_eliminate_eq	libs/parser/expr.c	/^static void __expr_eliminate_eq(enum expr_type type, struct expr **ep1, struct expr **ep2)$/;"	f	file:
+__list_add	libs/parser/list.h	/^static inline void __list_add(struct list_head *_new,$/;"	f
+__list_del	libs/parser/list.h	/^static inline void __list_del(struct list_head *prev, struct list_head *next)$/;"	f
+_menu	frontends/qconf/qconf.h	/^	struct menu *_menu;$/;"	m	class:ConfigInfoView	typeref:struct:ConfigInfoView::menu
+_menu_init	libs/parser/menu.c	/^void _menu_init(void)$/;"	f
+_showDebug	frontends/qconf/qconf.h	/^	bool _showDebug;$/;"	m	class:ConfigInfoView
+ac_fn_c_check_decl	configure	/^ac_fn_c_check_decl ()$/;"	f
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+ac_fn_cxx_try_compile	configure	/^ac_fn_cxx_try_compile ()$/;"	f
+ac_fn_cxx_try_cpp	configure	/^ac_fn_cxx_try_cpp ()$/;"	f
+ac_fn_cxx_try_link	configure	/^ac_fn_cxx_try_link ()$/;"	f
+addColumn	frontends/qconf/qconf.h	/^	void addColumn(colIdx idx, const QString& label)$/;"	f	class:ConfigList
+add_byte	libs/parser/confdata.c	/^static int add_byte(int c, char **lineptr, size_t slen, size_t *n)$/;"	f	file:
+adj_match_dir	frontends/nconf/nconf.c	/^static void adj_match_dir(match_f *match_direction)$/;"	f	file:
+allOpt	frontends/qconf/qconf.h	/^	normalOpt = 0, allOpt, promptOpt$/;"	e	enum:optionMode
+alldefconfig	frontends/conf/conf.c	/^	alldefconfig,$/;"	e	enum:input_mode	file:
+allmodconfig	frontends/conf/conf.c	/^	allmodconfig,$/;"	e	enum:input_mode	file:
+allnoconfig	frontends/conf/conf.c	/^	allnoconfig,$/;"	e	enum:input_mode	file:
+alloc_string	libs/parser/lconf.c	/^static void alloc_string(const char *str, int size)$/;"	f	file:
+alloca	libs/parser/yconf.c	336;"	d	file:
+allyesconfig	frontends/conf/conf.c	/^	allyesconfig,$/;"	e	enum:input_mode	file:
+append_string	libs/parser/lconf.c	/^static void append_string(const char *str, int size)$/;"	f	file:
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_executable_p	configure	/^as_fn_executable_p ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+atr	libs/lxdialog/dialog.h	/^	chtype atr;	\/* Color attribute *\/$/;"	m	struct:dialog_color
+attr_clear	libs/lxdialog/util.c	/^void attr_clear(WINDOW * win, int height, int width, chtype attr)$/;"	f
+attributes	frontends/nconf/nconf.gui.c	/^attributes_t attributes[ATTR_MAX+1] = {0};$/;"	v
+attributes_t	frontends/nconf/nconf.h	/^} attributes_t;$/;"	t	typeref:enum:__anon6
+backAction	frontends/qconf/qconf.h	/^	Q3Action *backAction;$/;"	m	class:ConfigMainWindow
+back_btn	frontends/gconf/gconf.c	/^GtkWidget *back_btn = NULL;$/;"	v
+back_lines	libs/lxdialog/textbox.c	/^static void back_lines(int n)$/;"	f	file:
+backtitle	libs/lxdialog/dialog.h	/^	const char *backtitle;$/;"	m	struct:dialog_info
+begin_reached	libs/lxdialog/textbox.c	/^static int begin_reached, end_reached, page_length;$/;"	v	file:
+bg	libs/lxdialog/dialog.h	/^	int bg;		\/* background *\/$/;"	m	struct:dialog_color
+bind_textdomain_codeset	libs/parser/lkc.h	/^static inline char *bind_textdomain_codeset(const char *dn, char *c) { return c; }$/;"	f
+bindtextdomain	libs/parser/lkc.h	/^static inline void bindtextdomain(const char *name, const char *dir) {}$/;"	f
+border	libs/lxdialog/dialog.h	/^	struct dialog_color border;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+browsed	frontends/gconf/gconf.c	/^static struct menu *browsed; \/\/ browsed node for SPLIT view$/;"	v	typeref:struct:menu	file:
+btn_dialog	frontends/nconf/nconf.gui.c	/^int btn_dialog(WINDOW *main_window, const char *msg, int btn_num, ...)$/;"	f
+buf	libs/lxdialog/textbox.c	/^static char *buf;$/;"	v	file:
+buffer	libs/parser/lconf.c	/^struct buffer {$/;"	s	file:
+build_conf	frontends/mconf/mconf.c	/^static void build_conf(struct menu *menu)$/;"	f	file:
+build_conf	frontends/nconf/nconf.c	/^static void build_conf(struct menu *menu)$/;"	f	file:
+button_active	libs/lxdialog/dialog.h	/^	struct dialog_color button_active;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+button_inactive	libs/lxdialog/dialog.h	/^	struct dialog_color button_inactive;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+button_key_active	libs/lxdialog/dialog.h	/^	struct dialog_color button_key_active;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+button_key_inactive	libs/lxdialog/dialog.h	/^	struct dialog_color button_key_inactive;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+button_label_active	libs/lxdialog/dialog.h	/^	struct dialog_color button_label_active;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+button_label_inactive	libs/lxdialog/dialog.h	/^	struct dialog_color button_label_inactive;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+cdebug	libs/parser/yconf.c	/^int cdebug = PRINTD;$/;"	v
+center_item	frontends/nconf/nconf.c	/^static void center_item(int selected_index, int *last_top_row)$/;"	f	file:
+changeMenu	frontends/qconf/qconf.cc	/^void ConfigMainWindow::changeMenu(struct menu *menu)$/;"	f	class:ConfigMainWindow
+changeValue	frontends/qconf/qconf.cc	/^void ConfigList::changeValue(ConfigItem* item)$/;"	f	class:ConfigList
+change_sym_value	frontends/gconf/gconf.c	/^static void change_sym_value(struct menu *menu, gint col)$/;"	f	file:
+check	libs/lxdialog/dialog.h	/^	struct dialog_color check;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+check_conf	frontends/conf/conf.c	/^static void check_conf(struct menu *menu)$/;"	f	file:
+check_selected	libs/lxdialog/dialog.h	/^	struct dialog_color check_selected;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+check_stdin	frontends/conf/conf.c	/^static void check_stdin(void)$/;"	f	file:
+check_top	libs/parser/symbol.c	/^} *check_top;$/;"	v	typeref:struct:dep_stack	file:
+check_x	libs/lxdialog/checklist.c	/^static int list_width, check_x, item_x;$/;"	v	file:
+child_count	frontends/mconf/mconf.c	/^static int child_count;$/;"	v	file:
+child_count	frontends/nconf/nconf.c	/^static int child_count;$/;"	v	file:
+choice	libs/parser/yconf.y	/^choice: T_CHOICE word_opt T_EOL$/;"	l
+choiceNoPix	frontends/qconf/qconf.h	/^	QPixmap choiceYesPix, choiceNoPix;$/;"	m	class:ConfigList
+choiceYesPix	frontends/qconf/qconf.h	/^	QPixmap choiceYesPix, choiceNoPix;$/;"	m	class:ConfigList
+choice_block	libs/parser/yconf.y	/^choice_block:$/;"	l
+choice_end	libs/parser/yconf.y	/^choice_end: end$/;"	l
+choice_entry	libs/parser/yconf.y	/^choice_entry: choice choice_option_list$/;"	l
+choice_option	libs/parser/yconf.y	/^choice_option: T_DEFAULT T_WORD if_expr T_EOL$/;"	l
+choice_option	libs/parser/yconf.y	/^choice_option: T_OPTIONAL T_EOL$/;"	l
+choice_option	libs/parser/yconf.y	/^choice_option: T_PROMPT prompt if_expr T_EOL$/;"	l
+choice_option	libs/parser/yconf.y	/^choice_option: T_TYPE prompt_stmt_opt T_EOL$/;"	l
+choice_option_list	libs/parser/yconf.y	/^choice_option_list:$/;"	l
+choice_stmt	libs/parser/yconf.y	/^choice_stmt: choice_entry choice_block choice_end$/;"	l
+clean_items	frontends/nconf/nconf.c	/^static void clean_items(void)$/;"	f	file:
+clean_up	utils/merge	/^clean_up() {$/;"	f
+closeEvent	frontends/qconf/qconf.cc	/^void ConfigMainWindow::closeEvent(QCloseEvent* e)$/;"	f	class:ConfigMainWindow
+colIdx	frontends/qconf/qconf.h	/^enum colIdx {$/;"	g
+colMap	frontends/qconf/qconf.h	/^	int colMap[colNr];$/;"	m	class:ConfigList
+colNr	frontends/qconf/qconf.h	/^	promptColIdx, nameColIdx, noColIdx, modColIdx, yesColIdx, dataColIdx, colNr$/;"	e	enum:colIdx
+colRevMap	frontends/qconf/qconf.h	/^	int colRevMap[colNr];$/;"	m	class:ConfigList
+color	frontends/gconf/gconf.c	/^GdkColor color;$/;"	v
+color_setup	libs/lxdialog/util.c	/^static void color_setup(const char *theme)$/;"	f	file:
+column2index	frontends/gconf/gconf.c	/^static gint column2index(GtkTreeViewColumn * column)$/;"	f	file:
+comment	libs/parser/yconf.y	/^comment: T_COMMENT prompt T_EOL$/;"	l
+comment_stmt	libs/parser/yconf.y	/^comment_stmt: comment depends_list$/;"	l
+common_stmt	libs/parser/yconf.y	/^common_stmt:$/;"	l
+compat_getline	libs/parser/confdata.c	/^static ssize_t compat_getline(char **lineptr, size_t *n, FILE *stream)$/;"	f	file:
+conf	frontends/conf/conf.c	/^static void conf(struct menu *menu)$/;"	f	file:
+conf	frontends/mconf/mconf.c	/^static void conf(struct menu *menu, struct menu *active_menu)$/;"	f	file:
+conf	frontends/nconf/nconf.c	/^static void conf(struct menu *menu)$/;"	f	file:
+conf_askvalue	frontends/conf/conf.c	/^static int conf_askvalue(struct symbol *sym, const char *def)$/;"	f	file:
+conf_changed	frontends/gconf/gconf.c	/^static void conf_changed(void)$/;"	f	file:
+conf_changed	frontends/qconf/qconf.cc	/^void ConfigMainWindow::conf_changed(void)$/;"	f	class:ConfigMainWindow
+conf_changed_callback	libs/parser/confdata.c	/^static void (*conf_changed_callback)(void);$/;"	v	file:
+conf_choice	frontends/conf/conf.c	/^static int conf_choice(struct menu *menu)$/;"	f	file:
+conf_choice	frontends/mconf/mconf.c	/^static void conf_choice(struct menu *menu)$/;"	f	file:
+conf_choice	frontends/nconf/nconf.c	/^static void conf_choice(struct menu *menu)$/;"	f	file:
+conf_cnt	frontends/conf/conf.c	/^static int conf_cnt;$/;"	v	file:
+conf_def_mode	libs/parser/lkc.h	/^enum conf_def_mode {$/;"	g
+conf_default_message_callback	libs/parser/confdata.c	/^static void conf_default_message_callback(const char *fmt, va_list ap)$/;"	f	file:
+conf_defname	libs/parser/confdata.c	/^const char conf_defname[] = "arch\/$ARCH\/defconfig";$/;"	v
+conf_expand_value	libs/parser/confdata.c	/^static char *conf_expand_value(const char *in)$/;"	f	file:
+conf_filename	libs/parser/confdata.c	/^static const char *conf_filename;$/;"	v	file:
+conf_get_autoconfig_name	libs/parser/confdata.c	/^const char *conf_get_autoconfig_name(void)$/;"	f
+conf_get_changed	libs/parser/confdata.c	/^bool conf_get_changed(void)$/;"	f
+conf_get_configname	libs/parser/confdata.c	/^const char *conf_get_configname(void)$/;"	f
+conf_get_default_confname	libs/parser/confdata.c	/^char *conf_get_default_confname(void)$/;"	f
+conf_lineno	libs/parser/confdata.c	/^static int conf_lineno, conf_warnings, conf_unsaved;$/;"	v	file:
+conf_load	frontends/mconf/mconf.c	/^static void conf_load(void)$/;"	f	file:
+conf_load	frontends/nconf/nconf.c	/^static void conf_load(void)$/;"	f	file:
+conf_message	libs/parser/confdata.c	/^static void conf_message(const char *fmt, ...)$/;"	f	file:
+conf_message_callback	frontends/mconf/mconf.c	/^static void conf_message_callback(const char *fmt, va_list ap)$/;"	f	file:
+conf_message_callback	frontends/nconf/nconf.c	/^static void conf_message_callback(const char *fmt, va_list ap)$/;"	f	file:
+conf_message_callback	libs/parser/confdata.c	/^static void (*conf_message_callback) (const char *fmt, va_list ap) =$/;"	v	file:
+conf_parse	libs/parser/yconf.c	/^void conf_parse(const char *name)$/;"	f
+conf_printer	libs/parser/lkc.h	/^struct conf_printer {$/;"	s
+conf_read	libs/parser/confdata.c	/^int conf_read(const char *name)$/;"	f
+conf_read_simple	libs/parser/confdata.c	/^int conf_read_simple(const char *name, int def)$/;"	f
+conf_save	frontends/mconf/mconf.c	/^static void conf_save(void)$/;"	f	file:
+conf_save	frontends/nconf/nconf.c	/^static void conf_save(void)$/;"	f	file:
+conf_set_all_new_symbols	libs/parser/confdata.c	/^bool conf_set_all_new_symbols(enum conf_def_mode mode)$/;"	f
+conf_set_changed_callback	libs/parser/confdata.c	/^void conf_set_changed_callback(void (*fn)(void))$/;"	f
+conf_set_message_callback	libs/parser/confdata.c	/^void conf_set_message_callback(void (*fn) (const char *fmt, va_list ap))$/;"	f
+conf_set_sym_val	libs/parser/confdata.c	/^static int conf_set_sym_val(struct symbol *sym, int def, int def_flags, char *p)$/;"	f	file:
+conf_split_config	libs/parser/confdata.c	/^static int conf_split_config(void)$/;"	f	file:
+conf_string	frontends/conf/conf.c	/^static int conf_string(struct menu *menu)$/;"	f	file:
+conf_string	frontends/mconf/mconf.c	/^static void conf_string(struct menu *menu)$/;"	f	file:
+conf_string	frontends/nconf/nconf.c	/^static void conf_string(struct menu *menu)$/;"	f	file:
+conf_sym	frontends/conf/conf.c	/^static int conf_sym(struct menu *menu)$/;"	f	file:
+conf_unsaved	libs/parser/confdata.c	/^static int conf_lineno, conf_warnings, conf_unsaved;$/;"	v	file:
+conf_usage	frontends/conf/conf.c	/^static void conf_usage(const char *progname)$/;"	f	file:
+conf_warning	libs/parser/confdata.c	/^static void conf_warning(const char *fmt, ...)$/;"	f	file:
+conf_warnings	libs/parser/confdata.c	/^static int conf_lineno, conf_warnings, conf_unsaved;$/;"	v	file:
+conf_write	libs/parser/confdata.c	/^int conf_write(const char *name)$/;"	f
+conf_write_autoconf	libs/parser/confdata.c	/^int conf_write_autoconf(void)$/;"	f
+conf_write_defconfig	libs/parser/confdata.c	/^int conf_write_defconfig(const char *filename)$/;"	f
+conf_write_heading	libs/parser/confdata.c	/^conf_write_heading(FILE *fp, struct conf_printer *printer, void *printer_arg)$/;"	f	file:
+conf_write_symbol	libs/parser/confdata.c	/^static void conf_write_symbol(FILE *fp, struct symbol *sym,$/;"	f	file:
+configApp	frontends/qconf/qconf.cc	/^static QApplication *configApp;$/;"	v	file:
+configList	frontends/qconf/qconf.h	/^	ConfigList *configList;$/;"	m	class:ConfigMainWindow
+configSettings	frontends/qconf/qconf.cc	/^static ConfigSettings *configSettings;$/;"	v	file:
+configView	frontends/qconf/qconf.h	/^	ConfigView *configView;$/;"	m	class:ConfigMainWindow
+config_entry_start	libs/parser/yconf.y	/^config_entry_start: T_CONFIG T_WORD T_EOL$/;"	l
+config_option	libs/parser/yconf.y	/^config_option: T_DEFAULT expr if_expr T_EOL$/;"	l
+config_option	libs/parser/yconf.y	/^config_option: T_PROMPT prompt if_expr T_EOL$/;"	l
+config_option	libs/parser/yconf.y	/^config_option: T_RANGE symbol symbol if_expr T_EOL$/;"	l
+config_option	libs/parser/yconf.y	/^config_option: T_SELECT T_WORD if_expr T_EOL$/;"	l
+config_option	libs/parser/yconf.y	/^config_option: T_TYPE prompt_stmt_opt T_EOL$/;"	l
+config_option_list	libs/parser/yconf.y	/^config_option_list:$/;"	l
+config_stmt	libs/parser/yconf.y	/^config_stmt: config_entry_start config_option_list$/;"	l
+container_of	libs/parser/list.h	18;"	d
+contentsContextMenuEvent	frontends/qconf/qconf.cc	/^void ConfigInfoView::contentsContextMenuEvent(QContextMenuEvent *e)$/;"	f	class:ConfigInfoView
+contentsMouseDoubleClickEvent	frontends/qconf/qconf.cc	/^void ConfigList::contentsMouseDoubleClickEvent(QMouseEvent* e)$/;"	f	class:ConfigList
+contentsMouseMoveEvent	frontends/qconf/qconf.cc	/^void ConfigList::contentsMouseMoveEvent(QMouseEvent* e)$/;"	f	class:ConfigList
+contentsMousePressEvent	frontends/qconf/qconf.cc	/^void ConfigList::contentsMousePressEvent(QMouseEvent* e)$/;"	f	class:ConfigList
+contentsMouseReleaseEvent	frontends/qconf/qconf.cc	/^void ConfigList::contentsMouseReleaseEvent(QMouseEvent* e)$/;"	f	class:ConfigList
+contextMenuEvent	frontends/qconf/qconf.cc	/^void ConfigList::contextMenuEvent(QContextMenuEvent *e)$/;"	f	class:ConfigList
+createPopupMenu	frontends/qconf/qconf.cc	/^Q3PopupMenu* ConfigInfoView::createPopupMenu(const QPoint& pos)$/;"	f	class:ConfigInfoView
+curr	libs/parser/expr.h	/^	struct symbol_value curr;$/;"	m	struct:symbol	typeref:struct:symbol::symbol_value
+current	frontends/gconf/gconf.c	/^static struct menu *current; \/\/ current node for SINGLE view$/;"	v	typeref:struct:menu	file:
+current_buf	libs/parser/lconf.c	/^struct buffer *current_buf;$/;"	v	typeref:struct:buffer
+current_entry	libs/parser/yconf.c	/^static struct menu *current_menu, *current_entry;$/;"	v	typeref:struct:	file:
+current_file	libs/parser/menu.c	/^struct file *current_file;$/;"	v	typeref:struct:file
+current_instructions	frontends/nconf/nconf.c	/^const char *current_instructions = menu_instructions;$/;"	v
+current_menu	frontends/mconf/mconf.c	/^static struct menu *current_menu;$/;"	v	typeref:struct:menu	file:
+current_menu	frontends/nconf/nconf.c	/^static struct menu *current_menu;$/;"	v	typeref:struct:menu	file:
+current_menu	libs/parser/yconf.c	/^static struct menu *current_menu, *current_entry;$/;"	v	typeref:struct:menu	file:
+current_pos	libs/parser/lconf.c	/^} current_pos;$/;"	v	typeref:struct:__anon1	file:
+curses_item_index	frontends/nconf/nconf.c	/^static int curses_item_index(void)$/;"	f	file:
+curses_menu	frontends/nconf/nconf.c	/^static MENU *curses_menu;$/;"	v	file:
+curses_menu_items	frontends/nconf/nconf.c	/^static ITEM *curses_menu_items[MAX_MENU_ITEMS];$/;"	v	file:
+darrow	libs/lxdialog/dialog.h	/^	struct dialog_color darrow;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+data	libs/lxdialog/dialog.h	/^	void *data;	\/* pointer to menu item - used by menubox+checklist *\/$/;"	m	struct:dialog_item
+data	libs/parser/expr.h	/^	void *data;$/;"	m	struct:menu
+dataColIdx	frontends/qconf/qconf.h	/^	promptColIdx, nameColIdx, noColIdx, modColIdx, yesColIdx, dataColIdx, colNr$/;"	e	enum:colIdx
+dbg_sym_flags	frontends/gconf/gconf.c	/^const char *dbg_sym_flags(int val)$/;"	f
+debug_info	frontends/qconf/qconf.cc	/^QString ConfigInfoView::debug_info(struct symbol *sym)$/;"	f	class:ConfigInfoView
+def	libs/parser/expr.h	/^	struct symbol_value def[S_DEF_COUNT];$/;"	m	struct:symbol	typeref:struct:symbol::symbol_value
+def_default	libs/parser/lkc.h	/^	def_default,$/;"	e	enum:conf_def_mode
+def_mod	libs/parser/lkc.h	/^	def_mod,$/;"	e	enum:conf_def_mode
+def_no	libs/parser/lkc.h	/^	def_no,$/;"	e	enum:conf_def_mode
+def_random	libs/parser/lkc.h	/^	def_random$/;"	e	enum:conf_def_mode
+def_yes	libs/parser/lkc.h	/^	def_yes,$/;"	e	enum:conf_def_mode
+defconfig	frontends/conf/conf.c	/^	defconfig,$/;"	e	enum:input_mode	file:
+dep	libs/parser/expr.h	/^	struct expr *dep;$/;"	m	struct:menu	typeref:struct:menu::expr
+dep_stack	libs/parser/symbol.c	/^static struct dep_stack {$/;"	s	file:
+dep_stack_insert	libs/parser/symbol.c	/^static void dep_stack_insert(struct dep_stack *stack, struct symbol *sym)$/;"	f	file:
+dep_stack_remove	libs/parser/symbol.c	/^static void dep_stack_remove(void)$/;"	f	file:
+depends	libs/parser/yconf.y	/^depends: T_DEPENDS T_ON expr T_EOL$/;"	l
+depends_list	libs/parser/yconf.y	/^depends_list:$/;"	l
+dialog	libs/lxdialog/dialog.h	/^	struct dialog_color dialog;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+dialog_checklist	libs/lxdialog/checklist.c	/^int dialog_checklist(const char *title, const char *prompt, int height,$/;"	f
+dialog_clear	libs/lxdialog/util.c	/^void dialog_clear(void)$/;"	f
+dialog_color	libs/lxdialog/dialog.h	/^struct dialog_color {$/;"	s
+dialog_info	libs/lxdialog/dialog.h	/^struct dialog_info {$/;"	s
+dialog_input_result	frontends/nconf/nconf.c	/^static char *dialog_input_result;$/;"	v	file:
+dialog_input_result	libs/lxdialog/inputbox.c	/^char dialog_input_result[MAX_LEN + 1];$/;"	v
+dialog_input_result_len	frontends/nconf/nconf.c	/^static int dialog_input_result_len;$/;"	v	file:
+dialog_inputbox	frontends/nconf/nconf.gui.c	/^int dialog_inputbox(WINDOW *main_window,$/;"	f
+dialog_inputbox	libs/lxdialog/inputbox.c	/^int dialog_inputbox(const char *title, const char *prompt, int height, int width,$/;"	f
+dialog_item	libs/lxdialog/dialog.h	/^struct dialog_item {$/;"	s
+dialog_list	libs/lxdialog/dialog.h	/^struct dialog_list {$/;"	s
+dialog_menu	libs/lxdialog/menubox.c	/^int dialog_menu(const char *title, const char *prompt,$/;"	f
+dialog_textbox	libs/lxdialog/textbox.c	/^int dialog_textbox(const char *title, char *tbuf, int initial_height,$/;"	f
+dialog_yesno	libs/lxdialog/yesno.c	/^int dialog_yesno(const char *title, const char *prompt, int height, int width)$/;"	f
+dir_dep	libs/parser/expr.h	/^	struct expr_value dir_dep;$/;"	m	struct:symbol	typeref:struct:symbol::expr_value
+disabledColorGroup	frontends/qconf/qconf.h	/^	QColorGroup disabledColorGroup;$/;"	m	class:ConfigList
+display_list	frontends/gconf/gconf.c	/^static void display_list(void)$/;"	f	file:
+display_tree	frontends/gconf/gconf.c	/^static void display_tree(struct menu *menu)$/;"	f	file:
+display_tree_part	frontends/gconf/gconf.c	/^static void display_tree_part(void)$/;"	f	file:
+dlg	libs/lxdialog/util.c	/^struct dialog_info dlg;$/;"	v	typeref:struct:dialog_info
+do_exit	frontends/nconf/nconf.c	/^static int do_exit(void)$/;"	f	file:
+do_match	frontends/nconf/nconf.c	/^static int do_match(int key, struct match_state *state, int *ans)$/;"	f	file:
+do_print_item	libs/lxdialog/menubox.c	/^static void do_print_item(WINDOW * win, const char *item, int line_y,$/;"	f	file:
+do_scroll	libs/lxdialog/menubox.c	/^static void do_scroll(WINDOW *win, int *scroll, int n)$/;"	f	file:
+draw_box	libs/lxdialog/util.c	/^draw_box(WINDOW * win, int y, int x, int height, int width,$/;"	f
+draw_shadow	libs/lxdialog/util.c	/^void draw_shadow(WINDOW * win, int y, int x, int height, int width)$/;"	f
+e1	libs/parser/expr.c	127;"	d	file:
+e1	libs/parser/expr.c	186;"	d	file:
+e1	libs/parser/expr.c	506;"	d	file:
+e1	libs/parser/expr.c	552;"	d	file:
+e1	libs/parser/expr.c	558;"	d	file:
+e1	libs/parser/expr.c	608;"	d	file:
+e1	libs/parser/expr.c	850;"	d	file:
+e1	libs/parser/expr.c	873;"	d	file:
+e2	libs/parser/expr.c	128;"	d	file:
+e2	libs/parser/expr.c	187;"	d	file:
+e2	libs/parser/expr.c	507;"	d	file:
+e2	libs/parser/expr.c	553;"	d	file:
+e2	libs/parser/expr.c	559;"	d	file:
+e2	libs/parser/expr.c	609;"	d	file:
+e2	libs/parser/expr.c	851;"	d	file:
+e2	libs/parser/expr.c	874;"	d	file:
+editField	frontends/qconf/qconf.h	/^	QLineEdit* editField;$/;"	m	class:ConfigSearchWindow
+end	libs/parser/yconf.y	/^end:	  T_ENDMENU T_EOL	{ $$ = $1; }$/;"	l
+end_dialog	libs/lxdialog/util.c	/^void end_dialog(int x, int y)$/;"	f
+end_reached	libs/lxdialog/textbox.c	/^static int begin_reached, end_reached, page_length;$/;"	v	file:
+entries	frontends/mconf/mconf.c	/^	struct list_head entries;$/;"	m	struct:subtitle_part	typeref:struct:subtitle_part::list_head	file:
+entries	libs/parser/expr.h	/^	struct list_head entries;$/;"	m	struct:jump_key	typeref:struct:jump_key::list_head
+eo	libs/parser/symbol.c	/^	off_t		so, eo;$/;"	m	struct:sym_match	file:
+escape	utils/gettext.c	/^static char *escape(const char* text, char *bf, int len)$/;"	f	file:
+expr	libs/parser/expr.h	/^	struct expr *expr;         \/* the optional conditional part of the property *\/$/;"	m	struct:property	typeref:struct:property::expr
+expr	libs/parser/expr.h	/^	struct expr *expr;$/;"	m	struct:expr_value	typeref:struct:expr_value::expr
+expr	libs/parser/expr.h	/^	struct expr *expr;$/;"	m	union:expr_data	typeref:struct:expr_data::expr
+expr	libs/parser/expr.h	/^struct expr {$/;"	s
+expr	libs/parser/symbol.c	/^	struct expr *expr;$/;"	m	struct:dep_stack	typeref:struct:dep_stack::expr	file:
+expr	libs/parser/yconf.c	/^	struct expr *expr;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::expr	file:
+expr	libs/parser/yconf.y	/^expr:	  symbol				{ $$ = expr_alloc_symbol($1); }$/;"	l
+expr_alloc_and	libs/parser/expr.c	/^struct expr *expr_alloc_and(struct expr *e1, struct expr *e2)$/;"	f
+expr_alloc_comp	libs/parser/expr.c	/^struct expr *expr_alloc_comp(enum expr_type type, struct symbol *s1, struct symbol *s2)$/;"	f
+expr_alloc_one	libs/parser/expr.c	/^struct expr *expr_alloc_one(enum expr_type type, struct expr *ce)$/;"	f
+expr_alloc_or	libs/parser/expr.c	/^struct expr *expr_alloc_or(struct expr *e1, struct expr *e2)$/;"	f
+expr_alloc_symbol	libs/parser/expr.c	/^struct expr *expr_alloc_symbol(struct symbol *sym)$/;"	f
+expr_alloc_two	libs/parser/expr.c	/^struct expr *expr_alloc_two(enum expr_type type, struct expr *e1, struct expr *e2)$/;"	f
+expr_calc_value	libs/parser/expr.c	/^tristate expr_calc_value(struct expr *e)$/;"	f
+expr_compare_type	libs/parser/expr.c	/^int expr_compare_type(enum expr_type t1, enum expr_type t2)$/;"	f
+expr_contains_symbol	libs/parser/expr.c	/^int expr_contains_symbol(struct expr *dep, struct symbol *sym)$/;"	f
+expr_copy	libs/parser/expr.c	/^struct expr *expr_copy(const struct expr *org)$/;"	f
+expr_data	libs/parser/expr.h	/^union expr_data {$/;"	u
+expr_depends_symbol	libs/parser/expr.c	/^bool expr_depends_symbol(struct expr *dep, struct symbol *sym)$/;"	f
+expr_eliminate_dups	libs/parser/expr.c	/^struct expr *expr_eliminate_dups(struct expr *e)$/;"	f
+expr_eliminate_dups1	libs/parser/expr.c	/^static void expr_eliminate_dups1(enum expr_type type, struct expr **ep1, struct expr **ep2)$/;"	f	file:
+expr_eliminate_dups2	libs/parser/expr.c	/^static void expr_eliminate_dups2(enum expr_type type, struct expr **ep1, struct expr **ep2)$/;"	f	file:
+expr_eliminate_eq	libs/parser/expr.c	/^void expr_eliminate_eq(struct expr **ep1, struct expr **ep2)$/;"	f
+expr_eliminate_yn	libs/parser/expr.c	/^struct expr *expr_eliminate_yn(struct expr *e)$/;"	f
+expr_eq	libs/parser/expr.c	/^int expr_eq(struct expr *e1, struct expr *e2)$/;"	f
+expr_extract_eq	libs/parser/expr.c	/^void expr_extract_eq(enum expr_type type, struct expr **ep, struct expr **ep1, struct expr **ep2)$/;"	f
+expr_extract_eq_and	libs/parser/expr.c	/^struct expr *expr_extract_eq_and(struct expr **ep1, struct expr **ep2)$/;"	f
+expr_extract_eq_or	libs/parser/expr.c	/^struct expr *expr_extract_eq_or(struct expr **ep1, struct expr **ep2)$/;"	f
+expr_fprint	libs/parser/expr.c	/^void expr_fprint(struct expr *e, FILE *out)$/;"	f
+expr_free	libs/parser/expr.c	/^void expr_free(struct expr *e)$/;"	f
+expr_get_leftmost_symbol	libs/parser/expr.c	/^expr_get_leftmost_symbol(const struct expr *e)$/;"	f	file:
+expr_gstr_print	libs/parser/expr.c	/^void expr_gstr_print(struct expr *e, struct gstr *gs)$/;"	f
+expr_is_no	libs/parser/expr.h	/^static inline int expr_is_no(struct expr *e)$/;"	f
+expr_is_yes	libs/parser/expr.h	/^static inline int expr_is_yes(struct expr *e)$/;"	f
+expr_join_and	libs/parser/expr.c	/^static struct expr *expr_join_and(struct expr *e1, struct expr *e2)$/;"	f	file:
+expr_join_or	libs/parser/expr.c	/^static struct expr *expr_join_or(struct expr *e1, struct expr *e2)$/;"	f	file:
+expr_list_for_each_sym	libs/parser/expr.h	49;"	d
+expr_print	libs/parser/expr.c	/^void expr_print(struct expr *e, void (*fn)(void *, struct symbol *, const char *), void *data, int prevtoken)$/;"	f
+expr_print_file_helper	libs/parser/expr.c	/^static void expr_print_file_helper(void *data, struct symbol *sym, const char *str)$/;"	f	file:
+expr_print_gstr_helper	libs/parser/expr.c	/^static void expr_print_gstr_helper(void *data, struct symbol *sym, const char *str)$/;"	f	file:
+expr_print_help	frontends/qconf/qconf.cc	/^void ConfigInfoView::expr_print_help(void *data, struct symbol *sym, const char *str)$/;"	f	class:ConfigInfoView
+expr_simplify_unmet_dep	libs/parser/expr.c	/^struct expr *expr_simplify_unmet_dep(struct expr *e1, struct expr *e2)$/;"	f
+expr_trans_bool	libs/parser/expr.c	/^struct expr *expr_trans_bool(struct expr *e)$/;"	f
+expr_trans_compare	libs/parser/expr.c	/^struct expr *expr_trans_compare(struct expr *e, enum expr_type type, struct symbol *sym)$/;"	f
+expr_transform	libs/parser/expr.c	/^struct expr *expr_transform(struct expr *e)$/;"	f
+expr_type	libs/parser/expr.h	/^enum expr_type {$/;"	g
+expr_value	libs/parser/expr.h	/^struct expr_value {$/;"	s
+fg	libs/lxdialog/dialog.h	/^	int fg;		\/* foreground *\/$/;"	m	struct:dialog_color
+file	libs/parser/expr.h	/^	struct file *file;         \/* what file was this property defined *\/$/;"	m	struct:property	typeref:struct:property::file
+file	libs/parser/expr.h	/^	struct file *file;$/;"	m	struct:menu	typeref:struct:menu::file
+file	libs/parser/expr.h	/^struct file {$/;"	s
+file	libs/parser/lconf.c	/^	struct file *file;$/;"	m	struct:__anon1	typeref:struct:__anon1::file	file:
+file	libs/parser/yconf.c	/^	struct file *file;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::file	file:
+file	utils/gettext.c	/^	const char *file;$/;"	m	struct:file_line	file:
+file_line	utils/gettext.c	/^struct file_line {$/;"	s	file:
+file_line__new	utils/gettext.c	/^static struct file_line *file_line__new(const char *file, int lineno)$/;"	f	file:
+file_list	libs/parser/menu.c	/^struct file *file_list;$/;"	v	typeref:struct:file
+file_lookup	libs/parser/util.c	/^struct file *file_lookup(const char *name)$/;"	f
+file_write_dep	libs/parser/util.c	/^int file_write_dep(const char *name)$/;"	f
+filename	frontends/mconf/mconf.c	/^static char filename[PATH_MAX+1];$/;"	v	file:
+filename	frontends/nconf/nconf.c	/^static char filename[PATH_MAX+1];$/;"	v	file:
+files	utils/gettext.c	/^	struct file_line *files;$/;"	m	struct:message	typeref:struct:message::file_line	file:
+fill_row	frontends/gconf/gconf.c	/^static gchar **fill_row(struct menu *menu)$/;"	f	file:
+fill_window	frontends/nconf/nconf.gui.c	/^void fill_window(WINDOW *win, const char *text)$/;"	f
+findConfigItem	frontends/qconf/qconf.cc	/^ConfigItem* ConfigList::findConfigItem(struct menu *menu)$/;"	f	class:ConfigList
+firstChild	frontends/qconf/qconf.h	/^	ConfigItem* firstChild() const$/;"	f	class:ConfigItem
+firstChild	frontends/qconf/qconf.h	/^	ConfigItem* firstChild() const$/;"	f	class:ConfigList
+first_alpha	libs/lxdialog/util.c	/^int first_alpha(const char *string, const char *exempt)$/;"	f
+first_ts	libs/parser/lconf.c	/^static int last_ts, first_ts;$/;"	v	file:
+fixup_rootmenu	frontends/gconf/gconf.c	/^void fixup_rootmenu(struct menu *menu)$/;"	f
+fixup_rootmenu	frontends/qconf/qconf.cc	/^void fixup_rootmenu(struct menu *menu)$/;"	f
+flags	libs/parser/expr.h	/^	int flags;$/;"	m	struct:symbol
+flags	libs/parser/expr.h	/^	unsigned int flags;$/;"	m	struct:menu
+flags	libs/parser/lkc.h	/^	unsigned int flags;$/;"	m	struct:kconf_id
+flex_int16_t	libs/parser/lconf.c	/^typedef int16_t flex_int16_t;$/;"	t	file:
+flex_int16_t	libs/parser/lconf.c	/^typedef short int flex_int16_t;$/;"	t	file:
+flex_int32_t	libs/parser/lconf.c	/^typedef int flex_int32_t;$/;"	t	file:
+flex_int32_t	libs/parser/lconf.c	/^typedef int32_t flex_int32_t;$/;"	t	file:
+flex_int8_t	libs/parser/lconf.c	/^typedef int8_t flex_int8_t;$/;"	t	file:
+flex_int8_t	libs/parser/lconf.c	/^typedef signed char flex_int8_t;$/;"	t	file:
+flex_uint16_t	libs/parser/lconf.c	/^typedef uint16_t flex_uint16_t;$/;"	t	file:
+flex_uint16_t	libs/parser/lconf.c	/^typedef unsigned short int flex_uint16_t;$/;"	t	file:
+flex_uint32_t	libs/parser/lconf.c	/^typedef uint32_t flex_uint32_t;$/;"	t	file:
+flex_uint32_t	libs/parser/lconf.c	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
+flex_uint8_t	libs/parser/lconf.c	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
+flex_uint8_t	libs/parser/lconf.c	/^typedef unsigned char flex_uint8_t;$/;"	t	file:
+focusInEvent	frontends/qconf/qconf.cc	/^void ConfigList::focusInEvent(QFocusEvent *e)$/;"	f	class:ConfigList
+for_all_choices	libs/parser/expr.h	157;"	d
+for_all_defaults	libs/parser/expr.h	156;"	d
+for_all_prompts	libs/parser/expr.h	158;"	d
+for_all_properties	libs/parser/expr.h	153;"	d
+for_all_symbols	libs/parser/expr.h	88;"	d
+found	frontends/gconf/gconf.c	/^static GtkTreeIter found;$/;"	v	file:
+fullMode	frontends/qconf/qconf.h	/^	singleMode, menuMode, symbolMode, fullMode, listMode$/;"	e	enum:listMode
+func	frontends/nconf/nconf.c	/^	const char *func;$/;"	m	struct:function_keys	file:
+func_append	configure	/^func_append ()\\$/;"	f
+func_append	scripts/.autostuff/scripts/ltmain.sh	/^func_append ()$/;"	f
+func_append_quoted	configure	/^func_append_quoted ()\\$/;"	f
+func_append_quoted	scripts/.autostuff/scripts/ltmain.sh	/^func_append_quoted ()$/;"	f
+func_arith	configure	/^func_arith ()\\$/;"	f
+func_arith	scripts/.autostuff/scripts/ltmain.sh	/^func_arith ()$/;"	f
+func_at_file	scripts/.autostuff/scripts/ar-lib	/^func_at_file ()$/;"	f
+func_basename	configure	/^func_basename ()\\$/;"	f
+func_basename	scripts/.autostuff/scripts/ltmain.sh	/^func_basename ()$/;"	f
+func_check_version_match	scripts/.autostuff/scripts/ltmain.sh	/^func_check_version_match ()$/;"	f
+func_cl_dashL	scripts/.autostuff/scripts/compile	/^func_cl_dashL ()$/;"	f
+func_cl_dashl	scripts/.autostuff/scripts/compile	/^func_cl_dashl ()$/;"	f
+func_cl_wrapper	scripts/.autostuff/scripts/compile	/^func_cl_wrapper ()$/;"	f
+func_config	scripts/.autostuff/scripts/ltmain.sh	/^func_config ()$/;"	f
+func_convert_core_file_wine_to_w32	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_file_check	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_file_check ()$/;"	f
+func_convert_file_cygwin_to_w32	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_msys_to_cygwin	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_w32	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_nix_to_cygwin	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_w32	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_noop	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_file_noop ()$/;"	f
+func_convert_path_check	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_path_check ()$/;"	f
+func_convert_path_cygwin_to_w32	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_front_back_pathsep	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_msys_to_cygwin	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_w32	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_nix_to_cygwin	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_w32	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_noop	scripts/.autostuff/scripts/ltmain.sh	/^func_convert_path_noop ()$/;"	f
+func_cygming_dll_for_implib	scripts/.autostuff/scripts/ltmain.sh	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib_fallback	scripts/.autostuff/scripts/ltmain.sh	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	scripts/.autostuff/scripts/ltmain.sh	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_gnu_implib_p	scripts/.autostuff/scripts/ltmain.sh	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_ms_implib_p	scripts/.autostuff/scripts/ltmain.sh	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygpath	scripts/.autostuff/scripts/ltmain.sh	/^func_cygpath ()$/;"	f
+func_dirname	configure	/^func_dirname ()\\$/;"	f
+func_dirname	scripts/.autostuff/scripts/ltmain.sh	/^func_dirname ()$/;"	f
+func_dirname_and_basename	configure	/^func_dirname_and_basename ()\\$/;"	f
+func_dirname_and_basename	scripts/.autostuff/scripts/ltmain.sh	/^func_dirname_and_basename ()$/;"	f
+func_echo	scripts/.autostuff/scripts/ltmain.sh	/^func_echo ()$/;"	f
+func_echo_all	configure	/^func_echo_all ()$/;"	f
+func_echo_all	scripts/.autostuff/scripts/ltmain.sh	/^func_echo_all ()$/;"	f
+func_emit_cwrapperexe_src	scripts/.autostuff/scripts/ltmain.sh	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_wrapper	scripts/.autostuff/scripts/ltmain.sh	/^func_emit_wrapper ()$/;"	f
+func_enable_tag	scripts/.autostuff/scripts/ltmain.sh	/^func_enable_tag ()$/;"	f
+func_error	scripts/.autostuff/scripts/ar-lib	/^func_error ()$/;"	f
+func_error	scripts/.autostuff/scripts/ltmain.sh	/^func_error ()$/;"	f
+func_exec_program	scripts/.autostuff/scripts/ltmain.sh	/^func_exec_program ()$/;"	f
+func_exec_program_core	scripts/.autostuff/scripts/ltmain.sh	/^func_exec_program_core ()$/;"	f
+func_execute_cmds	scripts/.autostuff/scripts/ltmain.sh	/^func_execute_cmds ()$/;"	f
+func_extract_an_archive	scripts/.autostuff/scripts/ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	scripts/.autostuff/scripts/ltmain.sh	/^func_extract_archives ()$/;"	f
+func_fallback_echo	configure	/^  func_fallback_echo ()$/;"	f
+func_fallback_echo	configure	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	scripts/.autostuff/scripts/ltmain.sh	/^func_fallback_echo ()$/;"	f
+func_fatal_configuration	scripts/.autostuff/scripts/ltmain.sh	/^func_fatal_configuration ()$/;"	f
+func_fatal_error	scripts/.autostuff/scripts/ltmain.sh	/^func_fatal_error ()$/;"	f
+func_fatal_help	scripts/.autostuff/scripts/ltmain.sh	/^func_fatal_help ()$/;"	f
+func_features	scripts/.autostuff/scripts/ltmain.sh	/^func_features ()$/;"	f
+func_file_conv	scripts/.autostuff/scripts/ar-lib	/^func_file_conv ()$/;"	f
+func_file_conv	scripts/.autostuff/scripts/compile	/^func_file_conv ()$/;"	f
+func_generate_dlsyms	scripts/.autostuff/scripts/ltmain.sh	/^func_generate_dlsyms ()$/;"	f
+func_grep	scripts/.autostuff/scripts/ltmain.sh	/^func_grep ()$/;"	f
+func_help	scripts/.autostuff/scripts/ltmain.sh	/^func_help ()$/;"	f
+func_infer_tag	scripts/.autostuff/scripts/ltmain.sh	/^func_infer_tag ()$/;"	f
+func_init_to_host_path_cmd	scripts/.autostuff/scripts/ltmain.sh	/^func_init_to_host_path_cmd ()$/;"	f
+func_lalib_p	scripts/.autostuff/scripts/ltmain.sh	/^func_lalib_p ()$/;"	f
+func_lalib_unsafe_p	scripts/.autostuff/scripts/ltmain.sh	/^func_lalib_unsafe_p ()$/;"	f
+func_len	configure	/^func_len ()\\$/;"	f
+func_len	scripts/.autostuff/scripts/ltmain.sh	/^func_len ()$/;"	f
+func_lo2o	configure	/^func_lo2o ()\\$/;"	f
+func_lo2o	scripts/.autostuff/scripts/ltmain.sh	/^func_lo2o ()$/;"	f
+func_lt_dump_args	scripts/.autostuff/scripts/ltmain.sh	/^func_lt_dump_args ()$/;"	f
+func_ltwrapper_executable_p	scripts/.autostuff/scripts/ltmain.sh	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_p	scripts/.autostuff/scripts/ltmain.sh	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_script_p	scripts/.autostuff/scripts/ltmain.sh	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_scriptname	scripts/.autostuff/scripts/ltmain.sh	/^func_ltwrapper_scriptname ()$/;"	f
+func_missing_arg	scripts/.autostuff/scripts/ltmain.sh	/^func_missing_arg ()$/;"	f
+func_mkdir_p	scripts/.autostuff/scripts/ltmain.sh	/^func_mkdir_p ()$/;"	f
+func_mktempdir	scripts/.autostuff/scripts/ltmain.sh	/^func_mktempdir ()$/;"	f
+func_mode_compile	scripts/.autostuff/scripts/ltmain.sh	/^func_mode_compile ()$/;"	f
+func_mode_execute	scripts/.autostuff/scripts/ltmain.sh	/^func_mode_execute ()$/;"	f
+func_mode_finish	scripts/.autostuff/scripts/ltmain.sh	/^func_mode_finish ()$/;"	f
+func_mode_help	scripts/.autostuff/scripts/ltmain.sh	/^func_mode_help ()$/;"	f
+func_mode_install	scripts/.autostuff/scripts/ltmain.sh	/^func_mode_install ()$/;"	f
+func_mode_link	scripts/.autostuff/scripts/ltmain.sh	/^func_mode_link ()$/;"	f
+func_mode_uninstall	scripts/.autostuff/scripts/ltmain.sh	/^func_mode_uninstall ()$/;"	f
+func_normal_abspath	scripts/.autostuff/scripts/ltmain.sh	/^func_normal_abspath ()$/;"	f
+func_parse_lt_options	scripts/.autostuff/scripts/ltmain.sh	/^func_parse_lt_options ()$/;"	f
+func_quote_for_eval	scripts/.autostuff/scripts/ltmain.sh	/^func_quote_for_eval ()$/;"	f
+func_quote_for_expand	scripts/.autostuff/scripts/ltmain.sh	/^func_quote_for_expand ()$/;"	f
+func_relative_path	scripts/.autostuff/scripts/ltmain.sh	/^func_relative_path ()$/;"	f
+func_replace_sysroot	scripts/.autostuff/scripts/ltmain.sh	/^func_replace_sysroot ()$/;"	f
+func_resolve_sysroot	scripts/.autostuff/scripts/ltmain.sh	/^func_resolve_sysroot ()$/;"	f
+func_show_eval	scripts/.autostuff/scripts/ltmain.sh	/^func_show_eval ()$/;"	f
+func_show_eval_locale	scripts/.autostuff/scripts/ltmain.sh	/^func_show_eval_locale ()$/;"	f
+func_source	scripts/.autostuff/scripts/ltmain.sh	/^func_source ()$/;"	f
+func_split_long_opt	configure	/^func_split_long_opt ()\\$/;"	f
+func_split_long_opt	scripts/.autostuff/scripts/ltmain.sh	/^func_split_long_opt ()$/;"	f
+func_split_short_opt	configure	/^func_split_short_opt ()\\$/;"	f
+func_split_short_opt	scripts/.autostuff/scripts/ltmain.sh	/^func_split_short_opt ()$/;"	f
+func_stripname	configure	/^func_stripname ()\\$/;"	f
+func_stripname	scripts/.autostuff/scripts/ltmain.sh	/^func_stripname ()$/;"	f
+func_stripname_cnf	configure	/^func_stripname_cnf ()$/;"	f
+func_to_host_file	scripts/.autostuff/scripts/ltmain.sh	/^func_to_host_file ()$/;"	f
+func_to_host_path	scripts/.autostuff/scripts/ltmain.sh	/^func_to_host_path ()$/;"	f
+func_to_tool_file	scripts/.autostuff/scripts/ltmain.sh	/^func_to_tool_file ()$/;"	f
+func_tr_sh	scripts/.autostuff/scripts/ltmain.sh	/^func_tr_sh ()$/;"	f
+func_usage	scripts/.autostuff/scripts/ltmain.sh	/^func_usage ()$/;"	f
+func_verbose	scripts/.autostuff/scripts/ltmain.sh	/^func_verbose ()$/;"	f
+func_version	scripts/.autostuff/scripts/ltmain.sh	/^func_version ()$/;"	f
+func_warning	scripts/.autostuff/scripts/ltmain.sh	/^func_warning ()$/;"	f
+func_win32_import_lib_p	scripts/.autostuff/scripts/ltmain.sh	/^func_win32_import_lib_p ()$/;"	f
+func_win32_libid	scripts/.autostuff/scripts/ltmain.sh	/^func_win32_libid ()$/;"	f
+func_write_libtool_object	scripts/.autostuff/scripts/ltmain.sh	/^func_write_libtool_object ()$/;"	f
+func_xform	configure	/^func_xform ()\\$/;"	f
+func_xform	scripts/.autostuff/scripts/ltmain.sh	/^func_xform ()$/;"	f
+function_key	frontends/nconf/nconf.h	/^} function_key;$/;"	t	typeref:enum:__anon7
+function_key_handler_t	frontends/nconf/nconf.c	/^typedef void (*function_key_handler_t)(int *key, struct menu *menu);$/;"	t	file:
+function_keys	frontends/nconf/nconf.c	/^struct function_keys function_keys[] = {$/;"	v	typeref:struct:function_keys
+function_keys	frontends/nconf/nconf.c	/^struct function_keys {$/;"	s	file:
+function_keys_num	frontends/nconf/nconf.c	/^static const int function_keys_num = 9;$/;"	v	file:
+get_line	frontends/nconf/nconf.gui.c	/^const char *get_line(const char *text, int line_no)$/;"	f
+get_line	libs/lxdialog/textbox.c	/^static char *get_line(void)$/;"	f	file:
+get_line_length	frontends/nconf/nconf.gui.c	/^int get_line_length(const char *line)$/;"	f
+get_line_no	frontends/nconf/nconf.gui.c	/^int get_line_no(const char *text)$/;"	f
+get_mext_match	frontends/nconf/nconf.c	/^static int get_mext_match(const char *match_str, match_f flag)$/;"	f	file:
+get_prompt_str	libs/parser/menu.c	/^static void get_prompt_str(struct gstr *r, struct property *prop,$/;"	f	file:
+get_relations_str	libs/parser/menu.c	/^struct gstr get_relations_str(struct symbol **sym_arr, struct list_head *head)$/;"	f
+get_symbol_prop	libs/parser/menu.c	/^static struct property *get_symbol_prop(struct symbol *sym)$/;"	f	file:
+get_symbol_str	libs/parser/menu.c	/^void get_symbol_str(struct gstr *r, struct symbol *sym,$/;"	f
+gettext	libs/lxdialog/dialog.h	32;"	d
+gettext	libs/parser/lkc.h	/^static inline const char *gettext(const char *txt) { return txt; }$/;"	f
+global_exit	frontends/nconf/nconf.c	/^static int global_exit;$/;"	v	file:
+goBack	frontends/qconf/qconf.cc	/^void ConfigMainWindow::goBack(void)$/;"	f	class:ConfigMainWindow
+goParent	frontends/qconf/qconf.h	/^	bool goParent;$/;"	m	class:ConfigItem
+gstr	libs/parser/lkc.h	/^struct gstr {$/;"	s
+gtktree_iter_find_node	frontends/gconf/gconf.c	/^GtkTreeIter *gtktree_iter_find_node(GtkTreeIter * parent,$/;"	f
+handle_exit	frontends/mconf/mconf.c	/^static int handle_exit(void)$/;"	f	file:
+handle_f1	frontends/nconf/nconf.c	/^static void handle_f1(int *key, struct menu *current_item)$/;"	f	file:
+handle_f2	frontends/nconf/nconf.c	/^static void handle_f2(int *key, struct menu *current_item)$/;"	f	file:
+handle_f3	frontends/nconf/nconf.c	/^static void handle_f3(int *key, struct menu *current_item)$/;"	f	file:
+handle_f4	frontends/nconf/nconf.c	/^static void handle_f4(int *key, struct menu *current_item)$/;"	f	file:
+handle_f5	frontends/nconf/nconf.c	/^static void handle_f5(int *key, struct menu *current_item)$/;"	f	file:
+handle_f6	frontends/nconf/nconf.c	/^static void handle_f6(int *key, struct menu *current_item)$/;"	f	file:
+handle_f7	frontends/nconf/nconf.c	/^static void handle_f7(int *key, struct menu *current_item)$/;"	f	file:
+handle_f8	frontends/nconf/nconf.c	/^static void handle_f8(int *key, struct menu *current_item)$/;"	f	file:
+handle_f9	frontends/nconf/nconf.c	/^static void handle_f9(int *key, struct menu *current_item)$/;"	f	file:
+handler	frontends/nconf/nconf.c	/^	function_key_handler_t handler;$/;"	m	struct:function_keys	file:
+head	frontends/mconf/mconf.c	/^	struct list_head *head;$/;"	m	struct:search_data	typeref:struct:search_data::list_head	file:
+headerPopup	frontends/qconf/qconf.h	/^	Q3PopupMenu* headerPopup;$/;"	m	class:ConfigList
+header_print_comment	libs/parser/confdata.c	/^header_print_comment(FILE *fp, const char *value, void *arg)$/;"	f	file:
+header_print_symbol	libs/parser/confdata.c	/^header_print_symbol(FILE *fp, struct symbol *sym, const char *value, void *arg)$/;"	f	file:
+header_printer_cb	libs/parser/confdata.c	/^static struct conf_printer header_printer_cb =$/;"	v	typeref:struct:conf_printer	file:
+help	libs/parser/expr.h	/^	char *help;$/;"	m	struct:menu
+help	libs/parser/yconf.y	/^help: help_start T_HELPTEXT$/;"	l
+helpText	frontends/qconf/qconf.h	/^	ConfigInfoView *helpText;$/;"	m	class:ConfigMainWindow
+help_start	libs/parser/yconf.y	/^help_start: T_HELP T_EOL$/;"	l
+hl	libs/lxdialog/dialog.h	/^	int hl;		\/* highlight this item *\/$/;"	m	struct:dialog_color
+hpaned	frontends/gconf/gconf.c	/^GtkWidget *hpaned = NULL;$/;"	v
+hscroll	libs/lxdialog/textbox.c	/^static int hscroll;$/;"	v	file:
+id	libs/parser/yconf.c	/^	const struct kconf_id *id;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::kconf_id	file:
+if_block	libs/parser/yconf.y	/^if_block:$/;"	l
+if_end	libs/parser/yconf.y	/^if_end: end$/;"	l
+if_entry	libs/parser/yconf.y	/^if_entry: T_IF expr nl$/;"	l
+if_expr	libs/parser/yconf.y	/^if_expr:  \/* empty *\/			{ $$ = NULL; }$/;"	l
+if_stmt	libs/parser/yconf.y	/^if_stmt: if_entry if_block if_end$/;"	l
+in_search	frontends/nconf/nconf.c	/^	int in_search;$/;"	m	struct:match_state	file:
+inactivedColorGroup	frontends/qconf/qconf.h	/^	QColorGroup inactivedColorGroup;$/;"	m	class:ConfigList
+indent	frontends/conf/conf.c	/^static int indent = 1;$/;"	v	file:
+indent	frontends/gconf/gconf.c	/^static gint indent;$/;"	v	file:
+indent	frontends/mconf/mconf.c	/^static int indent;$/;"	v	file:
+indent	frontends/nconf/nconf.c	/^static int indent;$/;"	v	file:
+index	libs/parser/expr.h	/^	int index;$/;"	m	struct:jump_key
+info	frontends/qconf/qconf.h	/^	ConfigInfoView* info;$/;"	m	class:ConfigSearchWindow
+init	frontends/qconf/qconf.cc	/^void ConfigItem::init(void)$/;"	f	class:ConfigItem
+init_dialog	libs/lxdialog/util.c	/^int init_dialog(const char *backtitle)$/;"	f
+init_dialog_colors	libs/lxdialog/util.c	/^static void init_dialog_colors(void)$/;"	f	file:
+init_left_tree	frontends/gconf/gconf.c	/^void init_left_tree(void)$/;"	f
+init_main_window	frontends/gconf/gconf.c	/^void init_main_window(const gchar * glade_file)$/;"	f
+init_one_color	libs/lxdialog/util.c	/^static void init_one_color(struct dialog_color *color)$/;"	f	file:
+init_right_tree	frontends/gconf/gconf.c	/^void init_right_tree(void)$/;"	f
+init_tree_model	frontends/gconf/gconf.c	/^void init_tree_model(void)$/;"	f
+input	libs/parser/yconf.y	/^input: nl start | start;$/;"	l
+input_mode	frontends/conf/conf.c	/^enum input_mode {$/;"	g	file:
+input_mode	frontends/conf/conf.c	/^} input_mode = oldaskconfig;$/;"	v	typeref:enum:input_mode
+inputbox	libs/lxdialog/dialog.h	/^	struct dialog_color inputbox;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+inputbox_border	libs/lxdialog/dialog.h	/^	struct dialog_color inputbox_border;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+inputbox_instructions_hex	frontends/mconf/mconf.c	/^inputbox_instructions_hex[] = N_($/;"	v	file:
+inputbox_instructions_hex	frontends/nconf/nconf.c	/^inputbox_instructions_hex[] = N_($/;"	v	file:
+inputbox_instructions_int	frontends/mconf/mconf.c	/^inputbox_instructions_int[] = N_($/;"	v	file:
+inputbox_instructions_int	frontends/nconf/nconf.c	/^inputbox_instructions_int[] = N_($/;"	v	file:
+inputbox_instructions_string	frontends/mconf/mconf.c	/^inputbox_instructions_string[] = N_($/;"	v	file:
+inputbox_instructions_string	frontends/nconf/nconf.c	/^inputbox_instructions_string[] = N_($/;"	v	file:
+is_visible	frontends/nconf/nconf.c	/^	int is_visible;$/;"	m	struct:mitem	file:
+item	frontends/qconf/qconf.h	/^	ConfigItem *item;$/;"	m	class:ConfigLineEdit
+item	libs/lxdialog/dialog.h	/^	struct dialog_color item;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+item_activate_selected	libs/lxdialog/util.c	/^int item_activate_selected(void)$/;"	f
+item_add_str	frontends/nconf/nconf.c	/^static void item_add_str(const char *fmt, ...)$/;"	f	file:
+item_add_str	libs/lxdialog/util.c	/^void item_add_str(const char *fmt, ...)$/;"	f
+item_count	libs/lxdialog/util.c	/^int item_count(void)$/;"	f
+item_cur	libs/lxdialog/util.c	/^struct dialog_list *item_cur;$/;"	v	typeref:struct:dialog_list
+item_data	frontends/nconf/nconf.c	/^static void *item_data(void)$/;"	f	file:
+item_data	libs/lxdialog/util.c	/^void *item_data(void)$/;"	f
+item_foreach	libs/lxdialog/dialog.h	195;"	d
+item_head	libs/lxdialog/util.c	/^struct dialog_list *item_head;$/;"	v	typeref:struct:dialog_list
+item_is_selected	libs/lxdialog/util.c	/^int item_is_selected(void)$/;"	f
+item_is_tag	frontends/nconf/nconf.c	/^static int item_is_tag(char tag)$/;"	f	file:
+item_is_tag	libs/lxdialog/util.c	/^int item_is_tag(char tag)$/;"	f
+item_make	frontends/nconf/nconf.c	/^static void item_make(struct menu *menu, char tag, const char *fmt, ...)$/;"	f	file:
+item_make	libs/lxdialog/util.c	/^void item_make(const char *fmt, ...)$/;"	f
+item_n	libs/lxdialog/util.c	/^int item_n(void)$/;"	f
+item_nil	libs/lxdialog/util.c	/^struct dialog_list item_nil;$/;"	v	typeref:struct:dialog_list
+item_reset	libs/lxdialog/util.c	/^void item_reset(void)$/;"	f
+item_selected	libs/lxdialog/dialog.h	/^	struct dialog_color item_selected;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+item_set	libs/lxdialog/util.c	/^void item_set(int n)$/;"	f
+item_set_data	libs/lxdialog/util.c	/^void item_set_data(void *ptr)$/;"	f
+item_set_selected	libs/lxdialog/util.c	/^void item_set_selected(int val)$/;"	f
+item_set_tag	libs/lxdialog/util.c	/^void item_set_tag(char tag)$/;"	f
+item_str	libs/lxdialog/util.c	/^const char *item_str(void)$/;"	f
+item_tag	frontends/nconf/nconf.c	/^static char item_tag(void)$/;"	f	file:
+item_tag	libs/lxdialog/util.c	/^char item_tag(void)$/;"	f
+item_x	libs/lxdialog/checklist.c	/^static int list_width, check_x, item_x;$/;"	v	file:
+item_x	libs/lxdialog/menubox.c	/^static int menu_width, item_x;$/;"	v	file:
+items_num	frontends/nconf/nconf.c	/^static int items_num;$/;"	v	file:
+jump_key	libs/parser/expr.h	/^struct jump_key {$/;"	s
+k_menu_items	frontends/nconf/nconf.c	/^static struct mitem k_menu_items[MAX_MENU_ITEMS];$/;"	v	typeref:struct:mitem	file:
+kconf_id	libs/parser/lkc.h	/^struct kconf_id {$/;"	s
+kconfig_print_comment	libs/parser/confdata.c	/^kconfig_print_comment(FILE *fp, const char *value, void *arg)$/;"	f	file:
+kconfig_print_symbol	libs/parser/confdata.c	/^kconfig_print_symbol(FILE *fp, struct symbol *sym, const char *value, void *arg)$/;"	f	file:
+kconfig_printer_cb	libs/parser/confdata.c	/^static struct conf_printer kconfig_printer_cb =$/;"	v	typeref:struct:conf_printer	file:
+key	frontends/nconf/nconf.c	/^	function_key key;$/;"	m	struct:function_keys	file:
+keyPressEvent	frontends/qconf/qconf.cc	/^void ConfigLineEdit::keyPressEvent(QKeyEvent* e)$/;"	f	class:ConfigLineEdit
+keyPressEvent	frontends/qconf/qconf.cc	/^void ConfigList::keyPressEvent(QKeyEvent* ev)$/;"	f	class:ConfigList
+key_str	frontends/nconf/nconf.c	/^	const char *key_str;$/;"	m	struct:function_keys	file:
+keys	frontends/mconf/mconf.c	/^	int *keys;$/;"	m	struct:search_data	file:
+last_entry_ptr	libs/parser/menu.c	/^static struct menu **last_entry_ptr;$/;"	v	typeref:struct:menu	file:
+last_ts	libs/parser/lconf.c	/^static int last_ts, first_ts;$/;"	v	file:
+left	libs/parser/expr.h	/^	union expr_data left, right;$/;"	m	struct:expr	typeref:union:expr::expr_data
+len	libs/parser/lkc.h	/^	size_t len;$/;"	m	struct:gstr
+line	frontends/conf/conf.c	/^static char line[128];$/;"	v	file:
+lineEdit	frontends/qconf/qconf.h	/^	ConfigLineEdit* lineEdit;$/;"	m	class:ConfigView
+lineno	libs/parser/expr.h	/^	int lineno;                \/* what lineno was this property defined *\/$/;"	m	struct:property
+lineno	libs/parser/expr.h	/^	int lineno;$/;"	m	struct:file
+lineno	libs/parser/expr.h	/^	int lineno;$/;"	m	struct:menu
+lineno	libs/parser/lconf.c	/^	int lineno;$/;"	m	struct:__anon1	file:
+lineno	utils/gettext.c	/^	int lineno;$/;"	m	struct:file_line	file:
+list	frontends/qconf/qconf.h	/^	ConfigList* list;$/;"	m	class:ConfigView
+list	frontends/qconf/qconf.h	/^	ConfigView* list;$/;"	m	class:ConfigSearchWindow
+list	libs/parser/expr.h	/^	struct menu *list;$/;"	m	struct:menu	typeref:struct:menu::menu
+listFocusChanged	frontends/qconf/qconf.cc	/^void ConfigMainWindow::listFocusChanged(void)$/;"	f	class:ConfigMainWindow
+listMode	frontends/qconf/qconf.h	/^	singleMode, menuMode, symbolMode, fullMode, listMode$/;"	e	enum:listMode
+listMode	frontends/qconf/qconf.h	/^enum listMode {$/;"	g
+listView	frontends/qconf/qconf.h	/^	ConfigList* listView() const$/;"	f	class:ConfigItem
+listView	frontends/qconf/qconf.h	/^	ConfigList* listView()$/;"	f	class:ConfigList
+list_add_tail	libs/parser/list.h	/^static inline void list_add_tail(struct list_head *_new, struct list_head *head)$/;"	f
+list_del	libs/parser/list.h	/^static inline void list_del(struct list_head *entry)$/;"	f
+list_empty	libs/parser/list.h	/^static inline int list_empty(const struct list_head *head)$/;"	f
+list_entry	libs/parser/list.h	39;"	d
+list_for_each_entry	libs/parser/list.h	48;"	d
+list_for_each_entry_safe	libs/parser/list.h	60;"	d
+list_head	libs/parser/list.h	/^struct list_head {$/;"	s
+list_width	libs/lxdialog/checklist.c	/^static int list_width, check_x, item_x;$/;"	v	file:
+listnewconfig	frontends/conf/conf.c	/^	listnewconfig,$/;"	e	enum:input_mode	file:
+loadConfig	frontends/qconf/qconf.cc	/^void ConfigMainWindow::loadConfig(void)$/;"	f	class:ConfigMainWindow
+load_config_help	frontends/mconf/mconf.c	/^load_config_help[] = N_($/;"	v	file:
+load_config_help	frontends/nconf/nconf.c	/^load_config_help[] = N_($/;"	v	file:
+load_config_text	frontends/mconf/mconf.c	/^load_config_text[] = N_($/;"	v	file:
+load_config_text	frontends/nconf/nconf.c	/^load_config_text[] = N_($/;"	v	file:
+load_filename	frontends/gconf/gconf.c	/^load_filename(GtkFileSelection * file_selector, gpointer user_data)$/;"	f	file:
+long_opts	frontends/conf/conf.c	/^static struct option long_opts[] = {$/;"	v	typeref:struct:option	file:
+main	frontends/conf/conf.c	/^int main(int ac, char **av)$/;"	f
+main	frontends/gconf/gconf.c	/^int main(int ac, char *av[])$/;"	f
+main	frontends/mconf/mconf.c	/^int main(int ac, char **av)$/;"	f
+main	frontends/nconf/nconf.c	/^int main(int ac, char **av)$/;"	f
+main	frontends/qconf/qconf.cc	/^int main(int ac, char** av)$/;"	f
+main	scripts/.autostuff/scripts/config.guess	/^		main()$/;"	f
+main	scripts/.autostuff/scripts/config.guess	/^	main ()$/;"	f
+main	scripts/.autostuff/scripts/config.guess	/^main ()$/;"	f
+main	utils/diff	/^def main():$/;"	f
+main	utils/gettext.c	/^int main(int ac, char **av)$/;"	f
+main_window	frontends/nconf/nconf.c	/^static WINDOW *main_window;$/;"	v	file:
+main_wnd	frontends/gconf/gconf.c	/^GtkWidget *main_wnd = NULL;$/;"	v
+mainmenu_stmt	libs/parser/yconf.y	/^mainmenu_stmt: T_MAINMENU prompt nl$/;"	l
+mapIdx	frontends/qconf/qconf.h	/^	int mapIdx(colIdx idx)$/;"	f	class:ConfigList
+match_direction	frontends/nconf/nconf.c	/^	match_f match_direction;$/;"	m	struct:match_state	file:
+match_f	frontends/nconf/nconf.c	/^	FIND_NEXT_MATCH_DOWN, FIND_NEXT_MATCH_UP} match_f;$/;"	t	typeref:enum:__anon8	file:
+match_state	frontends/nconf/nconf.c	/^struct match_state$/;"	s	file:
+max	frontends/nconf/nconf.h	29;"	d
+max_width	libs/parser/lkc.h	/^	int max_width;$/;"	m	struct:gstr
+mconf_readme	frontends/mconf/mconf.c	/^static const char mconf_readme[] = N_($/;"	v	file:
+menu	frontends/qconf/qconf.h	/^	struct menu *menu;$/;"	m	class:ConfigItem	typeref:struct:ConfigItem::menu
+menu	libs/parser/expr.h	/^	struct menu *menu;         \/* the menu the property are associated with$/;"	m	struct:property	typeref:struct:property::menu
+menu	libs/parser/expr.h	/^struct menu {$/;"	s
+menu	libs/parser/yconf.c	/^	struct menu *menu;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::menu	file:
+menu	libs/parser/yconf.y	/^menu: T_MENU prompt T_EOL$/;"	l
+menuBackPix	frontends/qconf/qconf.h	/^	QPixmap menuPix, menuInvPix, menuBackPix, voidPix;$/;"	m	class:ConfigList
+menuInfo	frontends/qconf/qconf.cc	/^void ConfigInfoView::menuInfo(void)$/;"	f	class:ConfigInfoView
+menuInvPix	frontends/qconf/qconf.h	/^	QPixmap menuPix, menuInvPix, menuBackPix, voidPix;$/;"	m	class:ConfigList
+menuList	frontends/qconf/qconf.h	/^	ConfigList *menuList;$/;"	m	class:ConfigMainWindow
+menuMode	frontends/qconf/qconf.h	/^	singleMode, menuMode, symbolMode, fullMode, listMode$/;"	e	enum:listMode
+menuPix	frontends/qconf/qconf.h	/^	QPixmap menuPix, menuInvPix, menuBackPix, voidPix;$/;"	m	class:ConfigList
+menuSkip	frontends/qconf/qconf.cc	/^bool ConfigList::menuSkip(struct menu *menu)$/;"	f	class:ConfigList
+menuView	frontends/qconf/qconf.h	/^	ConfigView *menuView;$/;"	m	class:ConfigMainWindow
+menu__xgettext	utils/gettext.c	/^static void menu__xgettext(void)$/;"	f	file:
+menu_add_dep	libs/parser/menu.c	/^void menu_add_dep(struct expr *dep)$/;"	f
+menu_add_entry	libs/parser/menu.c	/^void menu_add_entry(struct symbol *sym)$/;"	f
+menu_add_expr	libs/parser/menu.c	/^void menu_add_expr(enum prop_type type, struct expr *expr, struct expr *dep)$/;"	f
+menu_add_menu	libs/parser/menu.c	/^struct menu *menu_add_menu(void)$/;"	f
+menu_add_option	libs/parser/menu.c	/^void menu_add_option(int token, char *arg)$/;"	f
+menu_add_prompt	libs/parser/menu.c	/^struct property *menu_add_prompt(enum prop_type type, char *prompt, struct expr *dep)$/;"	f
+menu_add_prop	libs/parser/menu.c	/^struct property *menu_add_prop(enum prop_type type, char *prompt, struct expr *expr, struct expr *dep)$/;"	f
+menu_add_symbol	libs/parser/menu.c	/^void menu_add_symbol(enum prop_type type, struct symbol *sym, struct expr *dep)$/;"	f
+menu_add_visibility	libs/parser/menu.c	/^void menu_add_visibility(struct expr *expr)$/;"	f
+menu_backtitle	frontends/nconf/nconf.c	/^static char menu_backtitle[PATH_MAX+128];$/;"	v	file:
+menu_block	libs/parser/yconf.y	/^menu_block:$/;"	l
+menu_build_message_list	utils/gettext.c	/^static void menu_build_message_list(struct menu *menu)$/;"	f	file:
+menu_check_dep	libs/parser/menu.c	/^static struct expr *menu_check_dep(struct expr *e)$/;"	f	file:
+menu_end	libs/parser/yconf.y	/^menu_end: end$/;"	l
+menu_end_entry	libs/parser/menu.c	/^void menu_end_entry(void)$/;"	f
+menu_end_menu	libs/parser/menu.c	/^void menu_end_menu(void)$/;"	f
+menu_entry	libs/parser/yconf.y	/^menu_entry: menu visibility_list depends_list$/;"	l
+menu_finalize	libs/parser/menu.c	/^void menu_finalize(struct menu *parent)$/;"	f
+menu_get_ext_help	libs/parser/menu.c	/^void menu_get_ext_help(struct menu *menu, struct gstr *help)$/;"	f
+menu_get_help	libs/parser/menu.c	/^const char *menu_get_help(struct menu *menu)$/;"	f
+menu_get_parent_menu	libs/parser/menu.c	/^struct menu *menu_get_parent_menu(struct menu *menu)$/;"	f
+menu_get_prompt	libs/parser/menu.c	/^const char *menu_get_prompt(struct menu *menu)$/;"	f
+menu_get_root_menu	libs/parser/menu.c	/^struct menu *menu_get_root_menu(struct menu *menu)$/;"	f
+menu_has_help	libs/parser/menu.c	/^bool menu_has_help(struct menu *menu)$/;"	f
+menu_has_prompt	libs/parser/menu.c	/^bool menu_has_prompt(struct menu *menu)$/;"	f
+menu_instructions	frontends/mconf/mconf.c	/^menu_instructions[] = N_($/;"	v	file:
+menu_instructions	frontends/nconf/nconf.c	/^menu_instructions[] = N_($/;"	v	file:
+menu_is_empty	libs/parser/menu.c	/^bool menu_is_empty(struct menu *menu)$/;"	f
+menu_is_visible	libs/parser/menu.c	/^bool menu_is_visible(struct menu *menu)$/;"	f
+menu_no_f_instructions	frontends/nconf/nconf.c	/^menu_no_f_instructions[] = N_($/;"	v	file:
+menu_set_type	libs/parser/menu.c	/^void menu_set_type(int type)$/;"	f
+menu_stmt	libs/parser/yconf.y	/^menu_stmt: menu_entry menu_block menu_end$/;"	l
+menu_validate_number	libs/parser/menu.c	/^static int menu_validate_number(struct symbol *sym, struct symbol *sym2)$/;"	f	file:
+menu_warn	libs/parser/menu.c	/^void menu_warn(struct menu *menu, const char *fmt, ...)$/;"	f
+menu_width	libs/lxdialog/menubox.c	/^static int menu_width, item_x;$/;"	v	file:
+menubox	libs/lxdialog/dialog.h	/^	struct dialog_color menubox;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+menubox_border	libs/lxdialog/dialog.h	/^	struct dialog_color menubox_border;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+menuconfig_entry_start	libs/parser/yconf.y	/^menuconfig_entry_start: T_MENUCONFIG T_WORD T_EOL$/;"	l
+menuconfig_stmt	libs/parser/yconf.y	/^menuconfig_stmt: menuconfig_entry_start config_option_list$/;"	l
+mesage__find	utils/gettext.c	/^static struct message *mesage__find(const char *msg)$/;"	f	file:
+message	utils/gettext.c	/^struct message {$/;"	s	file:
+message__add	utils/gettext.c	/^static int message__add(const char *msg, char *option, const char *file,$/;"	f	file:
+message__add_file_line	utils/gettext.c	/^static int message__add_file_line(struct message *self, const char *file,$/;"	f	file:
+message__list	utils/gettext.c	/^static struct message *message__list;$/;"	v	typeref:struct:message	file:
+message__new	utils/gettext.c	/^static struct message *message__new(const char *msg, char *option,$/;"	f	file:
+message__print_file_lineno	utils/gettext.c	/^static void message__print_file_lineno(struct message *self)$/;"	f	file:
+message__print_gettext_msgid_msgstr	utils/gettext.c	/^static void message__print_gettext_msgid_msgstr(struct message *self)$/;"	f	file:
+min	frontends/nconf/nconf.h	34;"	d
+mitem	frontends/nconf/nconf.c	/^struct mitem {$/;"	s	file:
+mkattr	frontends/nconf/nconf.gui.c	71;"	d	file:
+mkattrn	frontends/nconf/nconf.gui.c	103;"	d	file:
+mod	libs/parser/expr.h	/^	no, mod, yes$/;"	e	enum:tristate
+modColIdx	frontends/qconf/qconf.h	/^	promptColIdx, nameColIdx, noColIdx, modColIdx, yesColIdx, dataColIdx, colNr$/;"	e	enum:colIdx
+mode	frontends/qconf/qconf.h	/^	enum listMode mode;$/;"	m	class:ConfigList	typeref:enum:ConfigList::listMode
+model1	frontends/gconf/gconf.c	/^GtkTreeModel *model1, *model2;$/;"	v
+model2	frontends/gconf/gconf.c	/^GtkTreeModel *model1, *model2;$/;"	v
+modules_sym	libs/parser/symbol.c	/^struct symbol *modules_sym;$/;"	v	typeref:struct:symbol
+modules_val	libs/parser/symbol.c	/^tristate modules_val;$/;"	v
+msg	utils/gettext.c	/^	const char	 *msg;$/;"	m	struct:message	file:
+mwin_max_cols	frontends/nconf/nconf.c	/^static int mwin_max_cols;$/;"	v	file:
+mwin_max_lines	frontends/nconf/nconf.c	/^static int mwin_max_lines;$/;"	v	file:
+name	libs/parser/expr.h	/^	char *name;$/;"	m	struct:symbol
+name	libs/parser/expr.h	/^	const char *name;$/;"	m	struct:file
+name	libs/parser/lkc.h	/^	int name;$/;"	m	struct:kconf_id
+nameColIdx	frontends/qconf/qconf.h	/^	promptColIdx, nameColIdx, noColIdx, modColIdx, yesColIdx, dataColIdx, colNr$/;"	e	enum:colIdx
+nconf_global_help	frontends/nconf/nconf.c	/^static const char nconf_global_help[] = N_($/;"	v	file:
+new_string	libs/parser/lconf.c	/^static void new_string(void)$/;"	f	file:
+next	libs/lxdialog/dialog.h	/^	struct dialog_list *next;$/;"	m	struct:dialog_list	typeref:struct:dialog_list::dialog_list
+next	libs/lxdialog/dialog.h	/^	struct subtitle_list *next;$/;"	m	struct:subtitle_list	typeref:struct:subtitle_list::subtitle_list
+next	libs/parser/expr.h	/^	struct file *next;$/;"	m	struct:file	typeref:struct:file::file
+next	libs/parser/expr.h	/^	struct menu *next;$/;"	m	struct:menu	typeref:struct:menu::menu
+next	libs/parser/expr.h	/^	struct property *next;     \/* next property - null if last *\/$/;"	m	struct:property	typeref:struct:property::property
+next	libs/parser/expr.h	/^	struct symbol *next;$/;"	m	struct:symbol	typeref:struct:symbol::symbol
+next	libs/parser/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+next	libs/parser/symbol.c	/^	struct dep_stack *prev, *next;$/;"	m	struct:dep_stack	typeref:struct:dep_stack::	file:
+next	utils/gettext.c	/^	struct file_line *next;$/;"	m	struct:file_line	typeref:struct:file_line::file_line	file:
+next	utils/gettext.c	/^	struct message	 *next;$/;"	m	struct:message	typeref:struct:message::message	file:
+nextItem	frontends/qconf/qconf.h	/^	ConfigItem* nextItem;$/;"	m	class:ConfigItem
+nextSibling	frontends/qconf/qconf.h	/^	ConfigItem* nextSibling() const$/;"	f	class:ConfigItem
+nextView	frontends/qconf/qconf.h	/^	ConfigView* nextView;$/;"	m	class:ConfigView
+nl	libs/parser/yconf.y	/^nl:$/;"	l
+no	libs/parser/expr.h	/^	no, mod, yes$/;"	e	enum:tristate
+noColIdx	frontends/qconf/qconf.h	/^	promptColIdx, nameColIdx, noColIdx, modColIdx, yesColIdx, dataColIdx, colNr$/;"	e	enum:colIdx
+no_colors_theme	frontends/nconf/nconf.gui.c	/^static void no_colors_theme(void)$/;"	f	file:
+node	libs/lxdialog/dialog.h	/^	struct dialog_item node;$/;"	m	struct:dialog_list	typeref:struct:dialog_list::dialog_item
+nohelp_text	libs/parser/menu.c	/^static const char nohelp_text[] = "There is no help available for this option.";$/;"	v	file:
+normalOpt	frontends/qconf/qconf.h	/^	normalOpt = 0, allOpt, promptOpt$/;"	e	enum:optionMode
+normal_color_theme	frontends/nconf/nconf.gui.c	/^static void normal_color_theme(void)$/;"	f	file:
+offset	libs/parser/expr.h	/^	size_t offset;$/;"	m	struct:jump_key
+offsetof	libs/parser/list.h	8;"	d
+offsetof	libs/parser/list.h	9;"	d
+okRename	frontends/qconf/qconf.cc	/^void ConfigItem::okRename(int col)$/;"	f	class:ConfigItem
+oldaskconfig	frontends/conf/conf.c	/^	oldaskconfig,$/;"	e	enum:input_mode	file:
+oldconfig	frontends/conf/conf.c	/^	oldconfig,$/;"	e	enum:input_mode	file:
+olddefconfig	frontends/conf/conf.c	/^	olddefconfig,$/;"	e	enum:input_mode	file:
+on_about1_activate	frontends/gconf/gconf.c	/^void on_about1_activate(GtkMenuItem * menuitem, gpointer user_data)$/;"	f
+on_back_clicked	frontends/gconf/gconf.c	/^void on_back_clicked(GtkButton * button, gpointer user_data)$/;"	f
+on_collapse_clicked	frontends/gconf/gconf.c	/^void on_collapse_clicked(GtkButton * button, gpointer user_data)$/;"	f
+on_expand_clicked	frontends/gconf/gconf.c	/^void on_expand_clicked(GtkButton * button, gpointer user_data)$/;"	f
+on_full_clicked	frontends/gconf/gconf.c	/^void on_full_clicked(GtkButton * button, gpointer user_data)$/;"	f
+on_introduction1_activate	frontends/gconf/gconf.c	/^void on_introduction1_activate(GtkMenuItem * menuitem, gpointer user_data)$/;"	f
+on_key_esc	libs/lxdialog/util.c	/^int on_key_esc(WINDOW *win)$/;"	f
+on_key_resize	libs/lxdialog/util.c	/^int on_key_resize(void)$/;"	f
+on_license1_activate	frontends/gconf/gconf.c	/^void on_license1_activate(GtkMenuItem * menuitem, gpointer user_data)$/;"	f
+on_load1_activate	frontends/gconf/gconf.c	/^void on_load1_activate(GtkMenuItem * menuitem, gpointer user_data)$/;"	f
+on_load_clicked	frontends/gconf/gconf.c	/^void on_load_clicked(GtkButton * button, gpointer user_data)$/;"	f
+on_quit1_activate	frontends/gconf/gconf.c	/^void on_quit1_activate(GtkMenuItem * menuitem, gpointer user_data)$/;"	f
+on_save_activate	frontends/gconf/gconf.c	/^void on_save_activate(GtkMenuItem * menuitem, gpointer user_data)$/;"	f
+on_save_as1_activate	frontends/gconf/gconf.c	/^void on_save_as1_activate(GtkMenuItem * menuitem, gpointer user_data)$/;"	f
+on_set_option_mode1_activate	frontends/gconf/gconf.c	/^on_set_option_mode1_activate(GtkMenuItem *menuitem, gpointer user_data)$/;"	f
+on_set_option_mode2_activate	frontends/gconf/gconf.c	/^on_set_option_mode2_activate(GtkMenuItem *menuitem, gpointer user_data)$/;"	f
+on_set_option_mode3_activate	frontends/gconf/gconf.c	/^on_set_option_mode3_activate(GtkMenuItem *menuitem, gpointer user_data)$/;"	f
+on_show_data1_activate	frontends/gconf/gconf.c	/^void on_show_data1_activate(GtkMenuItem * menuitem, gpointer user_data)$/;"	f
+on_show_name1_activate	frontends/gconf/gconf.c	/^void on_show_name1_activate(GtkMenuItem * menuitem, gpointer user_data)$/;"	f
+on_show_range1_activate	frontends/gconf/gconf.c	/^void on_show_range1_activate(GtkMenuItem * menuitem, gpointer user_data)$/;"	f
+on_single_clicked	frontends/gconf/gconf.c	/^void on_single_clicked(GtkButton * button, gpointer user_data)$/;"	f
+on_split_clicked	frontends/gconf/gconf.c	/^void on_split_clicked(GtkButton * button, gpointer user_data)$/;"	f
+on_treeview1_button_press_event	frontends/gconf/gconf.c	/^on_treeview1_button_press_event(GtkWidget * widget,$/;"	f
+on_treeview2_button_press_event	frontends/gconf/gconf.c	/^on_treeview2_button_press_event(GtkWidget * widget,$/;"	f
+on_treeview2_cursor_changed	frontends/gconf/gconf.c	/^on_treeview2_cursor_changed(GtkTreeView * treeview, gpointer user_data)$/;"	f
+on_treeview2_key_press_event	frontends/gconf/gconf.c	/^on_treeview2_key_press_event(GtkWidget * widget,$/;"	f
+on_window1_delete_event	frontends/gconf/gconf.c	/^gboolean on_window1_delete_event(GtkWidget * widget, GdkEvent * event,$/;"	f
+on_window1_destroy	frontends/gconf/gconf.c	/^void on_window1_destroy(GtkObject * object, gpointer user_data)$/;"	f
+on_window1_size_request	frontends/gconf/gconf.c	/^on_window1_size_request(GtkWidget * widget,$/;"	f
+optMode	frontends/qconf/qconf.h	/^	enum optionMode optMode;$/;"	m	class:ConfigList	typeref:enum:ConfigList::optionMode
+opt_mode	frontends/gconf/gconf.c	/^static int opt_mode = OPT_NORMAL;$/;"	v	file:
+option	utils/gettext.c	/^	const char	 *option;$/;"	m	struct:message	file:
+optionMode	frontends/qconf/qconf.h	/^enum optionMode {$/;"	g
+option_error	libs/parser/yconf.y	/^option_error:$/;"	l
+option_name	libs/parser/yconf.y	/^option_name:$/;"	l
+page	libs/lxdialog/textbox.c	/^static char *page;$/;"	v	file:
+page_length	libs/lxdialog/textbox.c	/^static int begin_reached, end_reached, page_length;$/;"	v	file:
+paintCell	frontends/qconf/qconf.cc	/^void ConfigItem::paintCell(QPainter* p, const QColorGroup& cg, int column, int width, int align)$/;"	f	class:ConfigItem
+parent	frontends/qconf/qconf.h	/^	ConfigView* parent(void) const$/;"	f	class:ConfigLineEdit
+parent	frontends/qconf/qconf.h	/^	ConfigView* parent(void) const$/;"	f	class:ConfigList
+parent	libs/parser/expr.h	/^	struct file *parent;$/;"	m	struct:file	typeref:struct:file::file
+parent	libs/parser/expr.h	/^	struct menu *parent;$/;"	m	struct:menu	typeref:struct:menu::menu
+parent	libs/parser/lconf.c	/^        struct buffer *parent;$/;"	m	struct:buffer	typeref:struct:buffer::buffer	file:
+parents	frontends/gconf/gconf.c	/^static GtkTreeIter *parents[256];$/;"	v	file:
+pattern	frontends/nconf/nconf.c	/^	char pattern[256];$/;"	m	struct:match_state	file:
+pixmap	frontends/qconf/qconf.h	/^	const QPixmap* pixmap(colIdx idx) const$/;"	f	class:ConfigItem
+place_node	frontends/gconf/gconf.c	/^static void place_node(struct menu *menu, char **row)$/;"	f	file:
+position_indicator	libs/lxdialog/dialog.h	/^	struct dialog_color position_indicator;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+prev	libs/parser/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+prev	libs/parser/symbol.c	/^	struct dep_stack *prev, *next;$/;"	m	struct:dep_stack	typeref:struct:dep_stack::dep_stack	file:
+print_arrows	libs/lxdialog/checklist.c	/^static void print_arrows(WINDOW * win, int choice, int item_no, int scroll,$/;"	f	file:
+print_arrows	libs/lxdialog/menubox.c	/^static void print_arrows(WINDOW * win, int item_no, int scroll, int y, int x,$/;"	f	file:
+print_autowrap	libs/lxdialog/util.c	/^void print_autowrap(WINDOW * win, const char *prompt, int width, int y, int x)$/;"	f
+print_button	libs/lxdialog/util.c	/^void print_button(WINDOW * win, const char *label, int y, int x, int selected)$/;"	f
+print_buttons	libs/lxdialog/checklist.c	/^static void print_buttons(WINDOW * dialog, int height, int width, int selected)$/;"	f	file:
+print_buttons	libs/lxdialog/inputbox.c	/^static void print_buttons(WINDOW * dialog, int height, int width, int selected)$/;"	f	file:
+print_buttons	libs/lxdialog/menubox.c	/^static void print_buttons(WINDOW * win, int height, int width, int selected)$/;"	f	file:
+print_buttons	libs/lxdialog/yesno.c	/^static void print_buttons(WINDOW * dialog, int height, int width, int selected)$/;"	f	file:
+print_comment	libs/parser/lkc.h	/^	void (*print_comment)(FILE *, const char *, void *);$/;"	m	struct:conf_printer
+print_config	utils/diff	/^def print_config(op, config, value, new_value):$/;"	f
+print_filter	frontends/qconf/qconf.cc	/^QString ConfigInfoView::print_filter(const QString &str)$/;"	f	class:ConfigInfoView
+print_function_line	frontends/nconf/nconf.c	/^static void print_function_line(void)$/;"	f	file:
+print_help	frontends/conf/conf.c	/^static void print_help(struct menu *menu)$/;"	f	file:
+print_in_middle	frontends/nconf/nconf.gui.c	/^void print_in_middle(WINDOW *win,$/;"	f
+print_item	libs/lxdialog/checklist.c	/^static void print_item(WINDOW * win, int choice, int selected)$/;"	f	file:
+print_item	libs/lxdialog/menubox.c	102;"	d	file:
+print_line	libs/lxdialog/textbox.c	/^static void print_line(WINDOW * win, int row, int width)$/;"	f	file:
+print_page	libs/lxdialog/textbox.c	/^static void print_page(WINDOW *win, int height, int width, update_text_fn$/;"	f	file:
+print_position	libs/lxdialog/textbox.c	/^static void print_position(WINDOW * win)$/;"	f	file:
+print_quoted_string	libs/parser/yconf.c	/^static void print_quoted_string(FILE *out, const char *str)$/;"	f	file:
+print_symbol	libs/parser/lkc.h	/^	void (*print_symbol)(FILE *, struct symbol *, const char *, void *);$/;"	m	struct:conf_printer
+print_symbol	libs/parser/yconf.c	/^static void print_symbol(FILE *out, struct menu *menu)$/;"	f	file:
+print_title	libs/lxdialog/util.c	/^void print_title(WINDOW *dialog, const char *title, int width)$/;"	f
+printd	libs/parser/yconf.c	91;"	d	file:
+process_special_keys	frontends/nconf/nconf.c	/^static int process_special_keys(int *key, struct menu *menu)$/;"	f	file:
+progname	frontends/qconf/qconf.cc	/^static const char *progname;$/;"	v	file:
+prompt	libs/parser/expr.h	/^	struct property *prompt;$/;"	m	struct:menu	typeref:struct:menu::property
+prompt	libs/parser/yconf.y	/^prompt:	  T_WORD$/;"	l
+promptColIdx	frontends/qconf/qconf.h	/^	promptColIdx, nameColIdx, noColIdx, modColIdx, yesColIdx, dataColIdx, colNr$/;"	e	enum:colIdx
+promptOpt	frontends/qconf/qconf.h	/^	normalOpt = 0, allOpt, promptOpt$/;"	e	enum:optionMode
+prompt_stmt_opt	libs/parser/yconf.y	/^prompt_stmt_opt:$/;"	l
+prop	libs/parser/expr.h	/^	struct property *prop;$/;"	m	struct:symbol	typeref:struct:symbol::property
+prop	libs/parser/symbol.c	/^	struct property *prop;$/;"	m	struct:dep_stack	typeref:struct:dep_stack::property	file:
+prop_add_env	libs/parser/symbol.c	/^static void prop_add_env(const char *env)$/;"	f	file:
+prop_alloc	libs/parser/symbol.c	/^struct property *prop_alloc(enum prop_type type, struct symbol *sym)$/;"	f
+prop_get_symbol	libs/parser/symbol.c	/^struct symbol *prop_get_symbol(struct property *prop)$/;"	f
+prop_get_type_name	libs/parser/symbol.c	/^const char *prop_get_type_name(enum prop_type type)$/;"	f
+prop_type	libs/parser/expr.h	/^enum prop_type {$/;"	g
+prop_warn	libs/parser/menu.c	/^static void prop_warn(struct property *prop, const char *fmt, ...)$/;"	f	file:
+property	libs/parser/expr.h	/^struct property {$/;"	s
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+qgettext	frontends/qconf/qconf.cc	/^static inline QString qgettext(const QString& str)$/;"	f	file:
+qgettext	frontends/qconf/qconf.cc	/^static inline QString qgettext(const char* str)$/;"	f	file:
+radiolist_instructions	frontends/mconf/mconf.c	/^radiolist_instructions[] = N_($/;"	v	file:
+radiolist_instructions	frontends/nconf/nconf.c	/^radiolist_instructions[] = N_($/;"	v	file:
+randconfig	frontends/conf/conf.c	/^	randconfig,$/;"	e	enum:input_mode	file:
+randomize_choice_values	libs/parser/confdata.c	/^static bool randomize_choice_values(struct symbol *csym)$/;"	f	file:
+readSizes	frontends/qconf/qconf.cc	/^Q3ValueList<int> ConfigSettings::readSizes(const QString& key, bool *ok)$/;"	f	class:ConfigSettings
+readconfig	utils/diff	/^def readconfig(config_file):$/;"	f
+refresh_all_windows	frontends/nconf/nconf.gui.c	/^void refresh_all_windows(WINDOW *main_window)$/;"	f
+refresh_text_box	libs/lxdialog/textbox.c	/^static void refresh_text_box(WINDOW *dialog, WINDOW *box, int boxh, int boxw,$/;"	f	file:
+reinit	frontends/qconf/qconf.cc	/^void ConfigList::reinit(void)$/;"	f	class:ConfigList
+removeColumn	frontends/qconf/qconf.h	/^	void removeColumn(colIdx idx)$/;"	f	class:ConfigList
+renderer_edited	frontends/gconf/gconf.c	/^static void renderer_edited(GtkCellRendererText * cell,$/;"	f	file:
+replace_button_icon	frontends/gconf/gconf.c	/^void replace_button_icon(GladeXML * xml, GdkDrawable * window,$/;"	f
+reset_menu	frontends/nconf/nconf.c	/^static void reset_menu(void)$/;"	f	file:
+reset_subtitle	frontends/mconf/mconf.c	/^static void reset_subtitle(void)$/;"	f	file:
+resizeable	frontends/gconf/gconf.c	/^static gboolean resizeable = FALSE;$/;"	v	file:
+result	frontends/qconf/qconf.h	/^	struct symbol **result;$/;"	m	class:ConfigSearchWindow	typeref:struct:ConfigSearchWindow::symbol
+rev_dep	libs/parser/expr.h	/^	struct expr_value rev_dep;$/;"	m	struct:symbol	typeref:struct:symbol::expr_value
+right	libs/parser/expr.h	/^	union expr_data left, right;$/;"	m	struct:expr	typeref:union:expr::
+rootEntry	frontends/conf/conf.c	/^static struct menu *rootEntry;$/;"	v	typeref:struct:menu	file:
+rootEntry	frontends/qconf/qconf.h	/^	struct menu *rootEntry;$/;"	m	class:ConfigList	typeref:struct:ConfigList::menu
+rootmenu	libs/parser/menu.c	/^struct menu rootmenu;$/;"	v	typeref:struct:menu
+s	libs/parser/lkc.h	/^	char  *s;$/;"	m	struct:gstr
+saveAction	frontends/qconf/qconf.cc	/^Q3Action *ConfigMainWindow::saveAction;$/;"	m	class:ConfigMainWindow	file:
+saveAction	frontends/qconf/qconf.h	/^	static Q3Action *saveAction;$/;"	m	class:ConfigMainWindow
+saveConfig	frontends/qconf/qconf.cc	/^bool ConfigMainWindow::saveConfig(void)$/;"	f	class:ConfigMainWindow
+saveConfigAs	frontends/qconf/qconf.cc	/^void ConfigMainWindow::saveConfigAs(void)$/;"	f	class:ConfigMainWindow
+saveSettings	frontends/qconf/qconf.cc	/^void ConfigInfoView::saveSettings(void)$/;"	f	class:ConfigInfoView
+saveSettings	frontends/qconf/qconf.cc	/^void ConfigList::saveSettings(void)$/;"	f	class:ConfigList
+saveSettings	frontends/qconf/qconf.cc	/^void ConfigMainWindow::saveSettings(void)$/;"	f	class:ConfigMainWindow
+saveSettings	frontends/qconf/qconf.cc	/^void ConfigSearchWindow::saveSettings(void)$/;"	f	class:ConfigSearchWindow
+save_and_exit	frontends/mconf/mconf.c	/^static int save_and_exit;$/;"	v	file:
+save_btn	frontends/gconf/gconf.c	/^GtkWidget *save_btn = NULL;$/;"	v
+save_config_help	frontends/mconf/mconf.c	/^save_config_help[] = N_($/;"	v	file:
+save_config_help	frontends/nconf/nconf.c	/^save_config_help[] = N_($/;"	v	file:
+save_config_text	frontends/mconf/mconf.c	/^save_config_text[] = N_($/;"	v	file:
+save_config_text	frontends/nconf/nconf.c	/^save_config_text[] = N_($/;"	v	file:
+save_menu_item	frontends/gconf/gconf.c	/^GtkWidget *save_menu_item = NULL;$/;"	v
+saved_x	libs/lxdialog/util.c	/^int saved_x, saved_y;$/;"	v
+saved_y	libs/lxdialog/util.c	/^int saved_x, saved_y;$/;"	v
+savedefconfig	frontends/conf/conf.c	/^	savedefconfig,$/;"	e	enum:input_mode	file:
+screen	libs/lxdialog/dialog.h	/^	struct dialog_color screen;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+search	frontends/qconf/qconf.cc	/^void ConfigSearchWindow::search(void)$/;"	f	class:ConfigSearchWindow
+searchButton	frontends/qconf/qconf.h	/^	QPushButton* searchButton;$/;"	m	class:ConfigSearchWindow
+searchConfig	frontends/qconf/qconf.cc	/^void ConfigMainWindow::searchConfig(void)$/;"	f	class:ConfigMainWindow
+searchWindow	frontends/qconf/qconf.h	/^	ConfigSearchWindow *searchWindow;$/;"	m	class:ConfigMainWindow
+search_conf	frontends/mconf/mconf.c	/^static void search_conf(void)$/;"	f	file:
+search_conf	frontends/nconf/nconf.c	/^static void search_conf(void)$/;"	f	file:
+search_data	frontends/mconf/mconf.c	/^struct search_data {$/;"	s	file:
+search_help	frontends/mconf/mconf.c	/^search_help[] = N_($/;"	v	file:
+search_help	frontends/nconf/nconf.c	/^search_help[] = N_($/;"	v	file:
+searchbox	libs/lxdialog/dialog.h	/^	struct dialog_color searchbox;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+searchbox_border	libs/lxdialog/dialog.h	/^	struct dialog_color searchbox_border;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+searchbox_title	libs/lxdialog/dialog.h	/^	struct dialog_color searchbox_title;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+selected	libs/lxdialog/dialog.h	/^	int selected;	\/* Set to 1 by dialog_*() function if selected. *\/$/;"	m	struct:dialog_item
+setAllOpen	frontends/qconf/qconf.cc	/^void ConfigList::setAllOpen(bool open)$/;"	f	class:ConfigList
+setInfo	frontends/qconf/qconf.cc	/^void ConfigInfoView::setInfo(struct menu *m)$/;"	f	class:ConfigInfoView
+setMenuLink	frontends/qconf/qconf.cc	/^void ConfigMainWindow::setMenuLink(struct menu *menu)$/;"	f	class:ConfigMainWindow
+setOptionMode	frontends/qconf/qconf.cc	/^void ConfigView::setOptionMode(QAction *act)$/;"	f	class:ConfigView
+setParentMenu	frontends/qconf/qconf.cc	/^void ConfigList::setParentMenu(void)$/;"	f	class:ConfigList
+setPixmap	frontends/qconf/qconf.h	/^	void setPixmap(colIdx idx, const QPixmap& pm)$/;"	f	class:ConfigItem
+setRootMenu	frontends/qconf/qconf.cc	/^void ConfigList::setRootMenu(struct menu *menu)$/;"	f	class:ConfigList
+setShowData	frontends/qconf/qconf.cc	/^void ConfigView::setShowData(bool b)$/;"	f	class:ConfigView
+setShowDebug	frontends/qconf/qconf.cc	/^void ConfigInfoView::setShowDebug(bool b)$/;"	f	class:ConfigInfoView
+setShowName	frontends/qconf/qconf.cc	/^void ConfigView::setShowName(bool b)$/;"	f	class:ConfigView
+setShowRange	frontends/qconf/qconf.cc	/^void ConfigView::setShowRange(bool b)$/;"	f	class:ConfigView
+setText	frontends/qconf/qconf.h	/^	void setText(colIdx idx, const QString& text)$/;"	f	class:ConfigItem
+setValue	frontends/qconf/qconf.cc	/^void ConfigList::setValue(ConfigItem* item, tristate val)$/;"	f	class:ConfigList
+set_all_choice_values	libs/parser/confdata.c	/^void set_all_choice_values(struct symbol *csym)$/;"	f
+set_blackbg_theme	libs/lxdialog/util.c	/^static void set_blackbg_theme(void)$/;"	f	file:
+set_bluetitle_theme	libs/lxdialog/util.c	/^static void set_bluetitle_theme(void)$/;"	f	file:
+set_classic_theme	libs/lxdialog/util.c	/^static void set_classic_theme(void)$/;"	f	file:
+set_colors	frontends/nconf/nconf.gui.c	/^void set_colors()$/;"	f
+set_config_filename	frontends/mconf/mconf.c	/^static void set_config_filename(const char *config_filename)$/;"	f	file:
+set_config_filename	frontends/nconf/nconf.c	/^static const char *set_config_filename(const char *config_filename)$/;"	f	file:
+set_dialog_backtitle	libs/lxdialog/util.c	/^void set_dialog_backtitle(const char *backtitle)$/;"	f
+set_dialog_subtitles	libs/lxdialog/util.c	/^void set_dialog_subtitles(struct subtitle_list *subtitles)$/;"	f
+set_mono_theme	libs/lxdialog/util.c	/^static void set_mono_theme(void)$/;"	f	file:
+set_node	frontends/gconf/gconf.c	/^static void set_node(GtkTreeIter * node, struct menu *menu, gchar ** row)$/;"	f	file:
+set_normal_colors	frontends/nconf/nconf.gui.c	/^static void set_normal_colors(void)$/;"	f	file:
+set_subtitle	frontends/mconf/mconf.c	/^static void set_subtitle(void)$/;"	f	file:
+set_theme	libs/lxdialog/util.c	/^static int set_theme(const char *theme)$/;"	f	file:
+setmod_text	frontends/mconf/mconf.c	/^setmod_text[] = N_($/;"	v	file:
+setmod_text	frontends/nconf/nconf.c	/^setmod_text[] = N_($/;"	v	file:
+setup_windows	frontends/nconf/nconf.c	/^void setup_windows(void)$/;"	f
+shadow	libs/lxdialog/dialog.h	/^	struct dialog_color shadow;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+short	libs/parser/yconf.c	239;"	d	file:
+show	frontends/qconf/qconf.cc	/^void ConfigLineEdit::show(ConfigItem* i)$/;"	f	class:ConfigLineEdit
+showAbout	frontends/qconf/qconf.cc	/^void ConfigMainWindow::showAbout(void)$/;"	f	class:ConfigMainWindow
+showAllAction	frontends/qconf/qconf.cc	/^QAction *ConfigView::showAllAction;$/;"	m	class:ConfigView	file:
+showAllAction	frontends/qconf/qconf.h	/^	static QAction *showAllAction;$/;"	m	class:ConfigView
+showData	frontends/qconf/qconf.h	/^	bool showData(void) const { return list->showData; }$/;"	f	class:ConfigView
+showData	frontends/qconf/qconf.h	/^	bool showName, showRange, showData;$/;"	m	class:ConfigList
+showDebug	frontends/qconf/qconf.h	/^	bool showDebug(void) const { return _showDebug; }$/;"	f	class:ConfigInfoView
+showFullView	frontends/qconf/qconf.cc	/^void ConfigMainWindow::showFullView(void)$/;"	f	class:ConfigMainWindow
+showIntro	frontends/qconf/qconf.cc	/^void ConfigMainWindow::showIntro(void)$/;"	f	class:ConfigMainWindow
+showName	frontends/qconf/qconf.h	/^	bool showName(void) const { return list->showName; }$/;"	f	class:ConfigView
+showName	frontends/qconf/qconf.h	/^	bool showName, showRange, showData;$/;"	m	class:ConfigList
+showNormalAction	frontends/qconf/qconf.cc	/^QAction *ConfigView::showNormalAction;$/;"	m	class:ConfigView	file:
+showNormalAction	frontends/qconf/qconf.h	/^	static QAction *showNormalAction;$/;"	m	class:ConfigView
+showPromptAction	frontends/qconf/qconf.cc	/^QAction *ConfigView::showPromptAction;$/;"	m	class:ConfigView	file:
+showPromptAction	frontends/qconf/qconf.h	/^	static QAction *showPromptAction;$/;"	m	class:ConfigView
+showRange	frontends/qconf/qconf.h	/^	bool showName, showRange, showData;$/;"	m	class:ConfigList
+showRange	frontends/qconf/qconf.h	/^	bool showRange(void) const { return list->showRange; }$/;"	f	class:ConfigView
+showSingleView	frontends/qconf/qconf.cc	/^void ConfigMainWindow::showSingleView(void)$/;"	f	class:ConfigMainWindow
+showSplitView	frontends/qconf/qconf.cc	/^void ConfigMainWindow::showSplitView(void)$/;"	f	class:ConfigMainWindow
+show_all_items	frontends/nconf/nconf.c	/^static int show_all_items;$/;"	v	file:
+show_all_options	frontends/mconf/mconf.c	/^static int show_all_options;$/;"	v	file:
+show_help	frontends/mconf/mconf.c	/^static void show_help(struct menu *menu)$/;"	f	file:
+show_help	frontends/nconf/nconf.c	/^static void show_help(struct menu *menu)$/;"	f	file:
+show_helptext	frontends/mconf/mconf.c	/^static void show_helptext(const char *title, const char *text)$/;"	f	file:
+show_menu	frontends/nconf/nconf.c	/^static void show_menu(const char *prompt, const char *instructions,$/;"	f	file:
+show_name	frontends/gconf/gconf.c	/^static gboolean show_name = TRUE;$/;"	v	file:
+show_range	frontends/gconf/gconf.c	/^static gboolean show_range = TRUE;$/;"	v	file:
+show_scroll_win	frontends/nconf/nconf.gui.c	/^void show_scroll_win(WINDOW *main_window,$/;"	f
+show_textbox	frontends/mconf/mconf.c	/^static void show_textbox(const char *title, const char *text, int r, int c)$/;"	f	file:
+show_textbox_ext	frontends/mconf/mconf.c	/^static int show_textbox_ext(const char *title, char *text, int r, int c, int$/;"	f	file:
+show_value	frontends/gconf/gconf.c	/^static gboolean show_value = TRUE;$/;"	v	file:
+sig_handler	frontends/mconf/mconf.c	/^static void sig_handler(int signo)$/;"	f	file:
+silentoldconfig	frontends/conf/conf.c	/^	silentoldconfig,$/;"	e	enum:input_mode	file:
+singleMode	frontends/qconf/qconf.h	/^	singleMode, menuMode, symbolMode, fullMode, listMode$/;"	e	enum:listMode
+single_menu_mode	frontends/mconf/mconf.c	/^static int single_menu_mode;$/;"	v	file:
+single_menu_mode	frontends/nconf/nconf.c	/^static int single_menu_mode;$/;"	v	file:
+so	libs/parser/symbol.c	/^	off_t		so, eo;$/;"	m	struct:sym_match	file:
+source_stmt	libs/parser/yconf.y	/^source_stmt: T_SOURCE prompt T_EOL$/;"	l
+split	frontends/qconf/qconf.h	/^	QSplitter* split;$/;"	m	class:ConfigSearchWindow
+split1	frontends/qconf/qconf.h	/^	QSplitter* split1;$/;"	m	class:ConfigMainWindow
+split2	frontends/qconf/qconf.h	/^	QSplitter* split2;$/;"	m	class:ConfigMainWindow
+start	libs/parser/yconf.y	/^start: mainmenu_stmt stmt_list | stmt_list;$/;"	l
+state	libs/parser/lconf.c	/^        YY_BUFFER_STATE state;$/;"	m	struct:buffer	file:
+stmt_list	libs/parser/yconf.y	/^stmt_list:$/;"	l
+store_filename	frontends/gconf/gconf.c	/^store_filename(GtkFileSelection * file_selector, gpointer user_data)$/;"	f	file:
+str	frontends/nconf/nconf.c	/^	char str[256];$/;"	m	struct:mitem	file:
+str	libs/lxdialog/dialog.h	/^	char str[MAXITEMSTR];	\/* promtp displayed *\/$/;"	m	struct:dialog_item
+str_append	libs/parser/util.c	/^void str_append(struct gstr *gs, const char *s)$/;"	f
+str_assign	libs/parser/util.c	/^struct gstr str_assign(const char *s)$/;"	f
+str_free	libs/parser/util.c	/^void str_free(struct gstr *gs)$/;"	f
+str_get	libs/parser/util.c	/^const char *str_get(struct gstr *gs)$/;"	f
+str_new	libs/parser/util.c	/^struct gstr str_new(void)$/;"	f
+str_printf	libs/parser/util.c	/^void str_printf(struct gstr *gs, const char *fmt, ...)$/;"	f
+strhash	libs/parser/symbol.c	/^static unsigned strhash(const char *s)$/;"	f	file:
+string	libs/parser/yconf.c	/^	char *string;$/;"	m	union:YYSTYPE	file:
+strip	frontends/conf/conf.c	/^static void strip(char *str)$/;"	f	file:
+stype	libs/parser/lkc.h	/^	enum symbol_type stype;$/;"	m	struct:kconf_id	typeref:enum:kconf_id::symbol_type
+subtitle_list	libs/lxdialog/dialog.h	/^struct subtitle_list {$/;"	s
+subtitle_part	frontends/mconf/mconf.c	/^struct subtitle_part {$/;"	s	file:
+subtitles	frontends/mconf/mconf.c	/^static struct subtitle_list *subtitles;$/;"	v	typeref:struct:subtitle_list	file:
+subtitles	libs/lxdialog/dialog.h	/^	struct subtitle_list *subtitles;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::subtitle_list
+sym	frontends/qconf/qconf.h	/^	struct symbol *sym;$/;"	m	class:ConfigInfoView	typeref:struct:ConfigInfoView::symbol
+sym	libs/parser/expr.h	/^	struct symbol *sym;        \/* the symbol for which the property is associated *\/$/;"	m	struct:property	typeref:struct:property::symbol
+sym	libs/parser/expr.h	/^	struct symbol *sym;$/;"	m	struct:menu	typeref:struct:menu::symbol
+sym	libs/parser/expr.h	/^	struct symbol *sym;$/;"	m	union:expr_data	typeref:struct:expr_data::symbol
+sym	libs/parser/symbol.c	/^	struct symbol	*sym;$/;"	m	struct:sym_match	typeref:struct:sym_match::symbol	file:
+sym	libs/parser/symbol.c	/^	struct symbol *sym;$/;"	m	struct:dep_stack	typeref:struct:dep_stack::symbol	file:
+sym_add_change_count	libs/parser/confdata.c	/^void sym_add_change_count(int count)$/;"	f
+sym_add_default	libs/parser/symbol.c	/^static void sym_add_default(struct symbol *sym, const char *def)$/;"	f	file:
+sym_calc_choice	libs/parser/symbol.c	/^static struct symbol *sym_calc_choice(struct symbol *sym)$/;"	f	file:
+sym_calc_value	libs/parser/symbol.c	/^void sym_calc_value(struct symbol *sym)$/;"	f
+sym_calc_visibility	libs/parser/symbol.c	/^static void sym_calc_visibility(struct symbol *sym)$/;"	f	file:
+sym_change_count	libs/parser/confdata.c	/^static int sym_change_count;$/;"	v	file:
+sym_check_choice_deps	libs/parser/symbol.c	/^static struct symbol *sym_check_choice_deps(struct symbol *choice)$/;"	f	file:
+sym_check_deps	libs/parser/symbol.c	/^struct symbol *sym_check_deps(struct symbol *sym)$/;"	f
+sym_check_expr_deps	libs/parser/symbol.c	/^static struct symbol *sym_check_expr_deps(struct expr *e)$/;"	f	file:
+sym_check_print_recursive	libs/parser/symbol.c	/^static void sym_check_print_recursive(struct symbol *last_sym)$/;"	f	file:
+sym_check_prop	libs/parser/menu.c	/^static void sym_check_prop(struct symbol *sym)$/;"	f	file:
+sym_check_sym_deps	libs/parser/symbol.c	/^static struct symbol *sym_check_sym_deps(struct symbol *sym)$/;"	f	file:
+sym_choice_default	libs/parser/symbol.c	/^struct symbol *sym_choice_default(struct symbol *sym)$/;"	f
+sym_clear_all_valid	libs/parser/symbol.c	/^void sym_clear_all_valid(void)$/;"	f
+sym_defconfig_list	libs/parser/symbol.c	/^struct symbol *sym_defconfig_list;$/;"	v	typeref:struct:symbol
+sym_env_list	libs/parser/symbol.c	/^struct expr *sym_env_list;$/;"	v	typeref:struct:expr
+sym_escape_string_value	libs/parser/symbol.c	/^const char *sym_escape_string_value(const char *in)$/;"	f
+sym_expand_string_value	libs/parser/symbol.c	/^const char *sym_expand_string_value(const char *in)$/;"	f
+sym_find	libs/parser/symbol.c	/^struct symbol *sym_find(const char *name)$/;"	f
+sym_get_choice_prop	libs/parser/symbol.c	/^struct property *sym_get_choice_prop(struct symbol *sym)$/;"	f
+sym_get_choice_value	libs/parser/lkc.h	/^static inline struct symbol *sym_get_choice_value(struct symbol *sym)$/;"	f
+sym_get_default_prop	libs/parser/symbol.c	/^struct property *sym_get_default_prop(struct symbol *sym)$/;"	f
+sym_get_env_prop	libs/parser/symbol.c	/^struct property *sym_get_env_prop(struct symbol *sym)$/;"	f
+sym_get_range_prop	libs/parser/symbol.c	/^static struct property *sym_get_range_prop(struct symbol *sym)$/;"	f	file:
+sym_get_range_val	libs/parser/symbol.c	/^static long long sym_get_range_val(struct symbol *sym, int base)$/;"	f	file:
+sym_get_string_default	libs/parser/symbol.c	/^const char *sym_get_string_default(struct symbol *sym)$/;"	f
+sym_get_string_value	libs/parser/symbol.c	/^const char *sym_get_string_value(struct symbol *sym)$/;"	f
+sym_get_tristate_value	libs/parser/lkc.h	/^static inline tristate sym_get_tristate_value(struct symbol *sym)$/;"	f
+sym_get_type	libs/parser/symbol.c	/^enum symbol_type sym_get_type(struct symbol *sym)$/;"	f
+sym_has_value	libs/parser/lkc.h	/^static inline bool sym_has_value(struct symbol *sym)$/;"	f
+sym_init	libs/parser/symbol.c	/^void sym_init(void)$/;"	f
+sym_is_changable	libs/parser/symbol.c	/^bool sym_is_changable(struct symbol *sym)$/;"	f
+sym_is_choice	libs/parser/lkc.h	/^static inline bool sym_is_choice(struct symbol *sym)$/;"	f
+sym_is_choice_value	libs/parser/lkc.h	/^static inline bool sym_is_choice_value(struct symbol *sym)$/;"	f
+sym_is_optional	libs/parser/lkc.h	/^static inline bool sym_is_optional(struct symbol *sym)$/;"	f
+sym_lookup	libs/parser/symbol.c	/^struct symbol *sym_lookup(const char *name, int flags)$/;"	f
+sym_match	libs/parser/symbol.c	/^struct sym_match {$/;"	s	file:
+sym_re_search	libs/parser/symbol.c	/^struct symbol **sym_re_search(const char *pattern)$/;"	f
+sym_rel_comp	libs/parser/symbol.c	/^static int sym_rel_comp(const void *sym1, const void *sym2)$/;"	f	file:
+sym_set_all_changed	libs/parser/symbol.c	/^void sym_set_all_changed(void)$/;"	f
+sym_set_change_count	libs/parser/confdata.c	/^void sym_set_change_count(int count)$/;"	f
+sym_set_changed	libs/parser/symbol.c	/^void sym_set_changed(struct symbol *sym)$/;"	f
+sym_set_choice_value	libs/parser/lkc.h	/^static inline bool sym_set_choice_value(struct symbol *ch, struct symbol *chval)$/;"	f
+sym_set_string_value	libs/parser/symbol.c	/^bool sym_set_string_value(struct symbol *sym, const char *newval)$/;"	f
+sym_set_tristate_value	libs/parser/symbol.c	/^bool sym_set_tristate_value(struct symbol *sym, tristate val)$/;"	f
+sym_string_valid	libs/parser/symbol.c	/^bool sym_string_valid(struct symbol *sym, const char *str)$/;"	f
+sym_string_within_range	libs/parser/symbol.c	/^bool sym_string_within_range(struct symbol *sym, const char *str)$/;"	f
+sym_toggle_tristate_value	libs/parser/symbol.c	/^tristate sym_toggle_tristate_value(struct symbol *sym)$/;"	f
+sym_tristate_within_range	libs/parser/symbol.c	/^bool sym_tristate_within_range(struct symbol *sym, tristate val)$/;"	f
+sym_type_name	libs/parser/symbol.c	/^const char *sym_type_name(enum symbol_type type)$/;"	f
+sym_validate_range	libs/parser/symbol.c	/^static void sym_validate_range(struct symbol *sym)$/;"	f	file:
+symbol	libs/parser/expr.h	/^struct symbol {$/;"	s
+symbol	libs/parser/yconf.c	/^	struct symbol *symbol;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::symbol	file:
+symbol	libs/parser/yconf.y	/^symbol:	  T_WORD	{ $$ = sym_lookup($1, 0); free($1); }$/;"	l
+symbolInfo	frontends/qconf/qconf.cc	/^void ConfigInfoView::symbolInfo(void)$/;"	f	class:ConfigInfoView
+symbolModPix	frontends/qconf/qconf.h	/^	QPixmap symbolYesPix, symbolModPix, symbolNoPix;$/;"	m	class:ConfigList
+symbolMode	frontends/qconf/qconf.h	/^	singleMode, menuMode, symbolMode, fullMode, listMode$/;"	e	enum:listMode
+symbolNoPix	frontends/qconf/qconf.h	/^	QPixmap symbolYesPix, symbolModPix, symbolNoPix;$/;"	m	class:ConfigList
+symbolYesPix	frontends/qconf/qconf.h	/^	QPixmap symbolYesPix, symbolModPix, symbolNoPix;$/;"	m	class:ConfigList
+symbol_empty	libs/parser/symbol.c	/^}, symbol_empty = {$/;"	v	typeref:struct:
+symbol_hash	libs/parser/yconf.c	/^struct symbol *symbol_hash[SYMBOL_HASHSIZE];$/;"	v	typeref:struct:symbol
+symbol_mod	libs/parser/symbol.c	/^}, symbol_mod = {$/;"	v	typeref:struct:
+symbol_no	libs/parser/symbol.c	/^}, symbol_no = {$/;"	v	typeref:struct:
+symbol_option	libs/parser/yconf.y	/^symbol_option: T_OPTION symbol_option_list T_EOL$/;"	l
+symbol_option_arg	libs/parser/yconf.y	/^symbol_option_arg:$/;"	l
+symbol_option_list	libs/parser/yconf.y	/^symbol_option_list:$/;"	l
+symbol_type	libs/parser/expr.h	/^enum symbol_type {$/;"	g
+symbol_value	libs/parser/expr.h	/^struct symbol_value {$/;"	s
+symbol_yes	libs/parser/symbol.c	/^struct symbol symbol_yes = {$/;"	v	typeref:struct:symbol
+sync_kconfig	frontends/conf/conf.c	/^static int sync_kconfig;$/;"	v	file:
+tag	frontends/nconf/nconf.c	/^	char tag;$/;"	m	struct:mitem	file:
+tag	libs/lxdialog/dialog.h	/^	char tag;$/;"	m	struct:dialog_item
+tag	libs/lxdialog/dialog.h	/^	struct dialog_color tag;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+tag1	frontends/gconf/gconf.c	/^GtkTextTag *tag1, *tag2;$/;"	v
+tag2	frontends/gconf/gconf.c	/^GtkTextTag *tag1, *tag2;$/;"	v
+tag_key	libs/lxdialog/dialog.h	/^	struct dialog_color tag_key;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+tag_key_selected	libs/lxdialog/dialog.h	/^	struct dialog_color tag_key_selected;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+tag_selected	libs/lxdialog/dialog.h	/^	struct dialog_color tag_selected;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+target	libs/parser/expr.h	/^	struct menu *target;$/;"	m	struct:jump_key	typeref:struct:jump_key::menu
+targets	frontends/mconf/mconf.c	/^	struct menu **targets;$/;"	m	struct:search_data	typeref:struct:search_data::menu	file:
+testUpdateMenu	frontends/qconf/qconf.cc	/^void ConfigItem::testUpdateMenu(bool v)$/;"	f	class:ConfigItem
+text	frontends/mconf/mconf.c	/^	const char *text;$/;"	m	struct:subtitle_part	file:
+text	frontends/qconf/qconf.h	/^	QString text(colIdx idx) const$/;"	f	class:ConfigItem
+text	libs/lxdialog/dialog.h	/^	const char *text;$/;"	m	struct:subtitle_list
+text	libs/parser/expr.h	/^	const char *text;          \/* the prompt value - P_PROMPT, P_MENU, P_COMMENT *\/$/;"	m	struct:property
+text	libs/parser/lconf.c	/^static char *text;$/;"	v	file:
+text_asize	libs/parser/lconf.c	/^static int text_size, text_asize;$/;"	v	file:
+text_insert_help	frontends/gconf/gconf.c	/^static void text_insert_help(struct menu *menu)$/;"	f	file:
+text_insert_msg	frontends/gconf/gconf.c	/^static void text_insert_msg(const char *title, const char *message)$/;"	f	file:
+text_size	libs/parser/lconf.c	/^static int text_size, text_asize;$/;"	v	file:
+text_w	frontends/gconf/gconf.c	/^GtkWidget *text_w = NULL;$/;"	v
+textdomain	libs/parser/lkc.h	/^static inline void textdomain(const char *domainname) {}$/;"	f
+title	libs/lxdialog/dialog.h	/^	struct dialog_color title;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+toggle_sym_value	frontends/gconf/gconf.c	/^static void toggle_sym_value(struct menu *menu)$/;"	f	file:
+token	libs/parser/lkc.h	/^	int token;$/;"	m	struct:kconf_id
+toolBar	frontends/qconf/qconf.h	/^	Q3ToolBar *toolBar;$/;"	m	class:ConfigMainWindow
+trans_count	libs/parser/expr.c	/^static int trans_count;$/;"	v	file:
+tree	frontends/gconf/gconf.c	/^GtkTreeStore *tree1, *tree2, *tree;$/;"	v
+tree1	frontends/gconf/gconf.c	/^GtkTreeStore *tree1, *tree2, *tree;$/;"	v
+tree1_w	frontends/gconf/gconf.c	/^GtkWidget *tree1_w = NULL;	\/\/ left  frame$/;"	v
+tree2	frontends/gconf/gconf.c	/^GtkTreeStore *tree1, *tree2, *tree;$/;"	v
+tree2_w	frontends/gconf/gconf.c	/^GtkWidget *tree2_w = NULL;	\/\/ right frame$/;"	v
+tri	libs/parser/expr.h	/^	tristate tri;$/;"	m	struct:expr_value
+tri	libs/parser/expr.h	/^	tristate tri;$/;"	m	struct:symbol_value
+tristate	libs/parser/expr.h	/^typedef enum tristate {$/;"	g
+tristate	libs/parser/expr.h	/^} tristate;$/;"	t	typeref:enum:tristate
+tristate_print_symbol	libs/parser/confdata.c	/^tristate_print_symbol(FILE *fp, struct symbol *sym, const char *value, void *arg)$/;"	f	file:
+tristate_printer_cb	libs/parser/confdata.c	/^static struct conf_printer tristate_printer_cb =$/;"	v	typeref:struct:conf_printer	file:
+tty_stdio	frontends/conf/conf.c	/^static int tty_stdio;$/;"	v	file:
+type	libs/parser/expr.h	/^	enum expr_type type;$/;"	m	struct:expr	typeref:enum:expr::expr_type
+type	libs/parser/expr.h	/^	enum prop_type type;       \/* type of property *\/$/;"	m	struct:property	typeref:enum:property::prop_type
+type	libs/parser/expr.h	/^	enum symbol_type type;$/;"	m	struct:symbol	typeref:enum:symbol::symbol_type
+uarrow	libs/lxdialog/dialog.h	/^	struct dialog_color uarrow;$/;"	m	struct:dialog_info	typeref:struct:dialog_info::dialog_color
+unput	libs/parser/lconf.c	207;"	d	file:
+updateAll	frontends/qconf/qconf.h	/^	bool updateAll;$/;"	m	class:ConfigList
+updateList	frontends/qconf/qconf.cc	/^void ConfigList::updateList(ConfigItem* item)$/;"	f	class:ConfigList
+updateList	frontends/qconf/qconf.cc	/^void ConfigView::updateList(ConfigItem* item)$/;"	f	class:ConfigView
+updateListAll	frontends/qconf/qconf.cc	/^void ConfigView::updateListAll(void)$/;"	f	class:ConfigView
+updateListAll	frontends/qconf/qconf.h	/^	void updateListAll(void)$/;"	f	class:ConfigList
+updateMenu	frontends/qconf/qconf.cc	/^void ConfigItem::updateMenu(void)$/;"	f	class:ConfigItem
+updateMenuList	frontends/qconf/qconf.cc	/^void ConfigList::updateMenuList(P* parent, struct menu* menu)$/;"	f	class:ConfigList
+updateSelection	frontends/qconf/qconf.cc	/^void ConfigList::updateSelection(void)$/;"	f	class:ConfigList
+update_text	frontends/mconf/mconf.c	/^static void update_text(char *buf, size_t start, size_t end, void *_data)$/;"	f	file:
+update_text_fn	libs/lxdialog/dialog.h	/^typedef void (*update_text_fn)(char *buf, size_t start, size_t end, void$/;"	t
+update_tree	frontends/gconf/gconf.c	/^static void update_tree(struct menu *src, GtkTreeIter * dst)$/;"	f	file:
+usage	frontends/qconf/qconf.cc	/^static void usage(void)$/;"	f	file:
+usage	utils/diff	/^def usage():$/;"	f
+usage	utils/merge	/^usage() {$/;"	f
+usrptr	frontends/nconf/nconf.c	/^	void *usrptr;$/;"	m	struct:mitem	file:
+val	libs/parser/expr.h	/^	void *val;$/;"	m	struct:symbol_value
+valid_stdin	frontends/conf/conf.c	/^static int valid_stdin = 1;$/;"	v	file:
+viewList	frontends/qconf/qconf.cc	/^ConfigView*ConfigView::viewList;$/;"	m	class:ConfigView	file:
+viewList	frontends/qconf/qconf.h	/^	static ConfigView* viewList;$/;"	m	class:ConfigView
+view_mode	frontends/gconf/gconf.c	/^static gint view_mode = FULL_VIEW;$/;"	v	file:
+visibility	libs/parser/expr.h	/^	struct expr *visibility;$/;"	m	struct:menu	typeref:struct:menu::expr
+visibility_list	libs/parser/yconf.y	/^visibility_list:$/;"	l
+visible	frontends/qconf/qconf.h	/^	bool visible;$/;"	m	class:ConfigItem
+visible	libs/parser/expr.h	/^	struct expr_value visible;$/;"	m	struct:property	typeref:struct:property::expr_value
+visible	libs/parser/expr.h	/^	tristate visible;$/;"	m	struct:symbol
+visible	libs/parser/yconf.y	/^visible: T_VISIBLE if_expr$/;"	l
+voidPix	frontends/qconf/qconf.h	/^	QPixmap menuPix, menuInvPix, menuBackPix, voidPix;$/;"	m	class:ConfigList
+vpaned	frontends/gconf/gconf.c	/^GtkWidget *vpaned = NULL;$/;"	v
+wbkgdset	libs/lxdialog/dialog.h	50;"	d
+wbkgdset	libs/lxdialog/dialog.h	51;"	d
+word_opt	libs/parser/yconf.y	/^word_opt: \/* empty *\/			{ $$ = NULL; }$/;"	l
+writeSizes	frontends/qconf/qconf.cc	/^bool ConfigSettings::writeSizes(const QString& key, const Q3ValueList<int>& value)$/;"	f	class:ConfigSettings
+xcalloc	libs/parser/util.c	/^void *xcalloc(size_t nmemb, size_t size)$/;"	f
+xfgets	frontends/conf/conf.c	/^void xfgets(char *str, int size, FILE *in)$/;"	f
+xfwrite	libs/parser/lkc.h	/^static inline void xfwrite(const void *str, size_t len, size_t count, FILE *out)$/;"	f
+xmalloc	libs/parser/util.c	/^void *xmalloc(size_t size)$/;"	f
+yes	libs/parser/expr.h	/^	no, mod, yes$/;"	e	enum:tristate
+yesColIdx	frontends/qconf/qconf.h	/^	promptColIdx, nameColIdx, noColIdx, modColIdx, yesColIdx, dataColIdx, colNr$/;"	e	enum:colIdx
+yy_accept	libs/parser/lconf.c	/^static yyconst flex_int16_t yy_accept[61] =$/;"	v	file:
+yy_at_bol	libs/parser/lconf.c	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_bs_column	libs/parser/lconf.c	/^    int yy_bs_column; \/**< The column count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_bs_lineno	libs/parser/lconf.c	/^    int yy_bs_lineno; \/**< The line count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_pos	libs/parser/lconf.c	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	libs/parser/lconf.c	/^	yy_size_t yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_stack	libs/parser/lconf.c	/^static YY_BUFFER_STATE * yy_buffer_stack = 0; \/**< Stack as an array. *\/$/;"	v	file:
+yy_buffer_stack_max	libs/parser/lconf.c	/^static size_t yy_buffer_stack_max = 0; \/**< capacity of stack. *\/$/;"	v	file:
+yy_buffer_stack_top	libs/parser/lconf.c	/^static size_t yy_buffer_stack_top = 0; \/**< index of top of stack. *\/$/;"	v	file:
+yy_buffer_state	libs/parser/lconf.c	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_status	libs/parser/lconf.c	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_c_buf_p	libs/parser/lconf.c	/^static char *yy_c_buf_p = (char *) 0;$/;"	v	file:
+yy_ch_buf	libs/parser/lconf.c	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_create_buffer	libs/parser/lconf.c	8;"	d	file:
+yy_delete_buffer	libs/parser/lconf.c	9;"	d	file:
+yy_did_buffer_switch_on_eof	libs/parser/lconf.c	/^static int yy_did_buffer_switch_on_eof;$/;"	v	file:
+yy_ec	libs/parser/lconf.c	/^static yyconst flex_int32_t yy_ec[256] =$/;"	v	file:
+yy_fatal_error	libs/parser/lconf.c	/^static void yy_fatal_error (yyconst char* msg )$/;"	f	file:
+yy_fill_buffer	libs/parser/lconf.c	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_flex_debug	libs/parser/lconf.c	10;"	d	file:
+yy_flex_strlen	libs/parser/lconf.c	/^static int yy_flex_strlen (yyconst char * s )$/;"	f	file:
+yy_flex_strncpy	libs/parser/lconf.c	/^static void yy_flex_strncpy (char* s1, yyconst char * s2, int n )$/;"	f	file:
+yy_flush_buffer	libs/parser/lconf.c	12;"	d	file:
+yy_get_next_buffer	libs/parser/lconf.c	/^static int yy_get_next_buffer (void)$/;"	f	file:
+yy_get_previous_state	libs/parser/lconf.c	/^    static yy_state_type yy_get_previous_state (void)$/;"	f	file:
+yy_hold_char	libs/parser/lconf.c	/^static char yy_hold_char;$/;"	v	file:
+yy_init	libs/parser/lconf.c	/^static int yy_init = 0;		\/* whether we need to initialize *\/$/;"	v	file:
+yy_init_buffer	libs/parser/lconf.c	11;"	d	file:
+yy_init_globals	libs/parser/lconf.c	/^static int yy_init_globals (void)$/;"	f	file:
+yy_input_file	libs/parser/lconf.c	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	libs/parser/lconf.c	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	libs/parser/lconf.c	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_load_buffer_state	libs/parser/lconf.c	13;"	d	file:
+yy_n_chars	libs/parser/lconf.c	/^	int yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	libs/parser/lconf.c	/^static int yy_n_chars;		\/* number of characters read into yy_ch_buf *\/$/;"	v	file:
+yy_new_buffer	libs/parser/lconf.c	336;"	d	file:
+yy_nxt	libs/parser/lconf.c	/^	flex_int32_t yy_nxt;$/;"	m	struct:yy_trans_info	file:
+yy_nxt	libs/parser/lconf.c	/^static yyconst flex_int16_t yy_nxt[][17] =$/;"	v	file:
+yy_reduce_print	libs/parser/yconf.c	/^yy_reduce_print (YYSTYPE *yyvsp, int yyrule)$/;"	f	file:
+yy_set_bol	libs/parser/lconf.c	348;"	d	file:
+yy_set_interactive	libs/parser/lconf.c	338;"	d	file:
+yy_size_t	libs/parser/lconf.c	/^typedef size_t yy_size_t;$/;"	t	file:
+yy_stack_print	libs/parser/yconf.c	/^yy_stack_print (yytype_int16 *yybottom, yytype_int16 *yytop)$/;"	f	file:
+yy_start	libs/parser/lconf.c	/^static int yy_start = 0;	\/* start state number *\/$/;"	v	file:
+yy_state_type	libs/parser/lconf.c	/^typedef int yy_state_type;$/;"	t	file:
+yy_switch_to_buffer	libs/parser/lconf.c	14;"	d	file:
+yy_symbol_print	libs/parser/yconf.c	/^yy_symbol_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_symbol_value_print	libs/parser/yconf.c	/^yy_symbol_value_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_trans_info	libs/parser/lconf.c	/^struct yy_trans_info$/;"	s	file:
+yy_try_NUL_trans	libs/parser/lconf.c	/^    static yy_state_type yy_try_NUL_trans  (yy_state_type yy_current_state )$/;"	f	file:
+yy_verify	libs/parser/lconf.c	/^	flex_int32_t yy_verify;$/;"	m	struct:yy_trans_info	file:
+yyalloc	libs/parser/lconf.c	23;"	d	file:
+yyalloc	libs/parser/yconf.c	/^union yyalloc$/;"	u	file:
+yychar	libs/parser/yconf.c	/^int yychar;$/;"	v
+yychar	libs/parser/yconf.c	69;"	d	file:
+yycheck	libs/parser/yconf.c	/^static const yytype_int16 yycheck[] =$/;"	v	file:
+yyclearin	libs/parser/yconf.c	835;"	d	file:
+yyconst	libs/parser/lconf.c	125;"	d	file:
+yyconst	libs/parser/lconf.c	127;"	d	file:
+yydebug	libs/parser/yconf.c	/^int yydebug;$/;"	v
+yydebug	libs/parser/yconf.c	70;"	d	file:
+yydefact	libs/parser/yconf.c	/^static const yytype_uint8 yydefact[] =$/;"	v	file:
+yydefgoto	libs/parser/yconf.c	/^static const yytype_int16 yydefgoto[] =$/;"	v	file:
+yydestruct	libs/parser/yconf.c	/^yydestruct (const char *yymsg, int yytype, YYSTYPE *yyvaluep)$/;"	f	file:
+yyerrok	libs/parser/yconf.c	834;"	d	file:
+yyerror	libs/parser/yconf.c	67;"	d	file:
+yyfree	libs/parser/lconf.c	25;"	d	file:
+yyin	libs/parser/lconf.c	15;"	d	file:
+yyinput	libs/parser/lconf.c	/^    static int yyinput (void)$/;"	f	file:
+yyleng	libs/parser/lconf.c	16;"	d	file:
+yyless	libs/parser/lconf.c	194;"	d	file:
+yyless	libs/parser/lconf.c	2122;"	d	file:
+yyless	libs/parser/lconf.c	2123;"	d	file:
+yylex	libs/parser/lconf.c	17;"	d	file:
+yylex	libs/parser/yconf.c	66;"	d	file:
+yylineno	libs/parser/lconf.c	18;"	d	file:
+yylval	libs/parser/yconf.c	/^YYSTYPE yylval;$/;"	v
+yylval	libs/parser/yconf.c	68;"	d	file:
+yymore	libs/parser/lconf.c	771;"	d	file:
+yynerrs	libs/parser/yconf.c	/^int yynerrs;$/;"	v
+yynerrs	libs/parser/yconf.c	71;"	d	file:
+yyout	libs/parser/lconf.c	19;"	d	file:
+yypact	libs/parser/yconf.c	/^static const yytype_int16 yypact[] =$/;"	v	file:
+yypact_value_is_default	libs/parser/yconf.c	768;"	d	file:
+yyparse	libs/parser/yconf.c	/^yyparse (void *YYPARSE_PARAM)$/;"	f
+yyparse	libs/parser/yconf.c	65;"	d	file:
+yypgoto	libs/parser/yconf.c	/^static const yytype_int16 yypgoto[] =$/;"	v	file:
+yyprhs	libs/parser/yconf.c	/^static const yytype_uint16 yyprhs[] =$/;"	v	file:
+yyr1	libs/parser/yconf.c	/^static const yytype_uint8 yyr1[] =$/;"	v	file:
+yyr2	libs/parser/yconf.c	/^static const yytype_uint8 yyr2[] =$/;"	v	file:
+yyrealloc	libs/parser/lconf.c	24;"	d	file:
+yyrestart	libs/parser/lconf.c	20;"	d	file:
+yyrhs	libs/parser/yconf.c	/^static const yytype_int8 yyrhs[] =$/;"	v	file:
+yyrline	libs/parser/yconf.c	/^static const yytype_uint16 yyrline[] =$/;"	v	file:
+yyss_alloc	libs/parser/yconf.c	/^  yytype_int16 yyss_alloc;$/;"	m	union:yyalloc	file:
+yystos	libs/parser/yconf.c	/^static const yytype_uint8 yystos[] =$/;"	v	file:
+yystpcpy	libs/parser/yconf.c	/^yystpcpy (char *yydest, const char *yysrc)$/;"	f	file:
+yystpcpy	libs/parser/yconf.c	1131;"	d	file:
+yystrlen	libs/parser/yconf.c	/^yystrlen (const char *yystr)$/;"	f	file:
+yystrlen	libs/parser/yconf.c	1108;"	d	file:
+yystype	libs/parser/yconf.c	225;"	d	file:
+yysyntax_error	libs/parser/yconf.c	/^yysyntax_error (YYSIZE_T *yymsg_alloc, char **yymsg,$/;"	f	file:
+yytable	libs/parser/yconf.c	/^static const yytype_int16 yytable[] =$/;"	v	file:
+yytable_value_is_error	libs/parser/yconf.c	771;"	d	file:
+yyterminate	libs/parser/lconf.c	965;"	d	file:
+yytext	libs/parser/lconf.c	21;"	d	file:
+yytext_ptr	libs/parser/lconf.c	376;"	d	file:
+yytname	libs/parser/yconf.c	/^static const char *const yytname[] =$/;"	v	file:
+yytnamerr	libs/parser/yconf.c	/^yytnamerr (char *yyres, const char *yystr)$/;"	f	file:
+yytokentype	libs/parser/yconf.c	/^   enum yytokentype {$/;"	g	file:
+yytoknum	libs/parser/yconf.c	/^static const yytype_uint16 yytoknum[] =$/;"	v	file:
+yytranslate	libs/parser/yconf.c	/^static const yytype_uint8 yytranslate[] =$/;"	v	file:
+yytype_int16	libs/parser/yconf.c	/^typedef YYTYPE_INT16 yytype_int16;$/;"	t	file:
+yytype_int16	libs/parser/yconf.c	/^typedef short int yytype_int16;$/;"	t	file:
+yytype_int8	libs/parser/yconf.c	/^typedef YYTYPE_INT8 yytype_int8;$/;"	t	file:
+yytype_int8	libs/parser/yconf.c	/^typedef short int yytype_int8;$/;"	t	file:
+yytype_int8	libs/parser/yconf.c	/^typedef signed char yytype_int8;$/;"	t	file:
+yytype_uint16	libs/parser/yconf.c	/^typedef YYTYPE_UINT16 yytype_uint16;$/;"	t	file:
+yytype_uint16	libs/parser/yconf.c	/^typedef unsigned short int yytype_uint16;$/;"	t	file:
+yytype_uint8	libs/parser/yconf.c	/^typedef YYTYPE_UINT8 yytype_uint8;$/;"	t	file:
+yytype_uint8	libs/parser/yconf.c	/^typedef unsigned char yytype_uint8;$/;"	t	file:
+yyunput	libs/parser/lconf.c	/^    static void yyunput (int c, register char * yy_bp )$/;"	f	file:
+yyvs_alloc	libs/parser/yconf.c	/^  YYSTYPE yyvs_alloc;$/;"	m	union:yyalloc	file:
+yywrap	libs/parser/lconf.c	22;"	d	file:
+zconf_create_buffer	libs/parser/lconf.c	/^    YY_BUFFER_STATE zconf_create_buffer  (FILE * file, int  size )$/;"	f
+zconf_curname	libs/parser/lconf.c	/^const char *zconf_curname(void)$/;"	f
+zconf_delete_buffer	libs/parser/lconf.c	/^    void zconf_delete_buffer (YY_BUFFER_STATE  b )$/;"	f
+zconf_endfile	libs/parser/lconf.c	/^static void zconf_endfile(void)$/;"	f	file:
+zconf_endhelp	libs/parser/lconf.c	/^static void zconf_endhelp(void)$/;"	f	file:
+zconf_endtoken	libs/parser/yconf.c	/^static bool zconf_endtoken(const struct kconf_id *id, int starttoken, int endtoken)$/;"	f	file:
+zconf_error	libs/parser/yconf.c	/^static void zconf_error(const char *err, ...)$/;"	f	file:
+zconf_flex_debug	libs/parser/lconf.c	/^int zconf_flex_debug = 0;$/;"	v
+zconf_flush_buffer	libs/parser/lconf.c	/^    void zconf_flush_buffer (YY_BUFFER_STATE  b )$/;"	f
+zconf_fopen	libs/parser/lconf.c	/^FILE *zconf_fopen(const char *name)$/;"	f
+zconf_init_buffer	libs/parser/lconf.c	/^    static void zconf_init_buffer  (YY_BUFFER_STATE  b, FILE * file )$/;"	f	file:
+zconf_initscan	libs/parser/lconf.c	/^void zconf_initscan(const char *name)$/;"	f
+zconf_lineno	libs/parser/lconf.c	/^int zconf_lineno(void)$/;"	f
+zconf_load_buffer_state	libs/parser/lconf.c	/^static void zconf_load_buffer_state  (void)$/;"	f	file:
+zconf_nextfile	libs/parser/lconf.c	/^void zconf_nextfile(const char *name)$/;"	f
+zconf_scan_buffer	libs/parser/lconf.c	/^YY_BUFFER_STATE zconf_scan_buffer  (char * base, yy_size_t  size )$/;"	f
+zconf_scan_bytes	libs/parser/lconf.c	/^YY_BUFFER_STATE zconf_scan_bytes  (yyconst char * yybytes, int  _yybytes_len )$/;"	f
+zconf_scan_string	libs/parser/lconf.c	/^YY_BUFFER_STATE zconf_scan_string (yyconst char * yystr )$/;"	f
+zconf_starthelp	libs/parser/lconf.c	/^void zconf_starthelp(void)$/;"	f
+zconf_switch_to_buffer	libs/parser/lconf.c	/^    void zconf_switch_to_buffer  (YY_BUFFER_STATE  new_buffer )$/;"	f
+zconf_tokenname	libs/parser/yconf.c	/^static const char *zconf_tokenname(int token)$/;"	f	file:
+zconfalloc	libs/parser/lconf.c	/^void *zconfalloc (yy_size_t  size )$/;"	f
+zconfdump	libs/parser/yconf.c	/^void zconfdump(FILE *out)$/;"	f
+zconfensure_buffer_stack	libs/parser/lconf.c	/^static void zconfensure_buffer_stack (void)$/;"	f	file:
+zconferror	libs/parser/yconf.c	/^static void zconferror(const char *err)$/;"	f	file:
+zconffree	libs/parser/lconf.c	/^void zconffree (void * ptr )$/;"	f
+zconfget_debug	libs/parser/lconf.c	/^int zconfget_debug  (void)$/;"	f
+zconfget_in	libs/parser/lconf.c	/^FILE *zconfget_in  (void)$/;"	f
+zconfget_leng	libs/parser/lconf.c	/^int zconfget_leng  (void)$/;"	f
+zconfget_lineno	libs/parser/lconf.c	/^int zconfget_lineno  (void)$/;"	f
+zconfget_out	libs/parser/lconf.c	/^FILE *zconfget_out  (void)$/;"	f
+zconfget_text	libs/parser/lconf.c	/^char *zconfget_text  (void)$/;"	f
+zconfin	libs/parser/lconf.c	/^FILE *zconfin = (FILE *) 0, *zconfout = (FILE *) 0;$/;"	v
+zconfleng	libs/parser/lconf.c	/^int zconfleng;$/;"	v
+zconflex_destroy	libs/parser/lconf.c	/^int zconflex_destroy  (void)$/;"	f
+zconflineno	libs/parser/lconf.c	/^int zconflineno = 1;$/;"	v
+zconfout	libs/parser/lconf.c	/^FILE *zconfin = (FILE *) 0, *zconfout = (FILE *) 0;$/;"	v
+zconfpop_buffer_state	libs/parser/lconf.c	/^void zconfpop_buffer_state (void)$/;"	f
+zconfprint	libs/parser/yconf.c	/^static void zconfprint(const char *err, ...)$/;"	f	file:
+zconfpush_buffer_state	libs/parser/lconf.c	/^void zconfpush_buffer_state (YY_BUFFER_STATE new_buffer )$/;"	f
+zconfrealloc	libs/parser/lconf.c	/^void *zconfrealloc  (void * ptr, yy_size_t  size )$/;"	f
+zconfrestart	libs/parser/lconf.c	/^    void zconfrestart  (FILE * input_file )$/;"	f
+zconfset_debug	libs/parser/lconf.c	/^void zconfset_debug (int  bdebug )$/;"	f
+zconfset_in	libs/parser/lconf.c	/^void zconfset_in (FILE *  in_str )$/;"	f
+zconfset_lineno	libs/parser/lconf.c	/^void zconfset_lineno (int  line_number )$/;"	f
+zconfset_out	libs/parser/lconf.c	/^void zconfset_out (FILE *  out_str )$/;"	f
+zconftext	libs/parser/lconf.c	/^char *zconftext;$/;"	v
+zconfwrap	libs/parser/lconf.c	362;"	d	file:
+~ConfigItem	frontends/qconf/qconf.cc	/^ConfigItem::~ConfigItem(void)$/;"	f	class:ConfigItem
+~ConfigView	frontends/qconf/qconf.cc	/^ConfigView::~ConfigView(void)$/;"	f	class:ConfigView

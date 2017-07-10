@@ -1,0 +1,85 @@
+[{
+		"name":	"Devices Driver",
+		"description":	"",
+		"tyep":	"",
+		"value":	"",
+		"sub":	[{
+				"name":	"GPIO",
+				"description":	"",
+				"tyep":	"",
+				"value":	"",
+				"sub":	null
+			}, {
+				"name":	"PWM",
+				"description":	"",
+				"tyep":	"",
+				"value":	"",
+				"sub":	null
+			}, {
+				"name":	"I2C",
+				"description":	"",
+				"tyep":	"",
+				"value":	"",
+				"sub":	null
+			}, {
+				"name":	"SPI",
+				"description":	"",
+				"tyep":	"",
+				"value":	"",
+				"sub":	null
+			}]
+	}, {
+		"name":	"Network Utilities",
+		"description":	"",
+		"tyep":	"",
+		"value":	"",
+		"sub":	[{
+				"name":	"DHCP Client",
+				"description":	"",
+				"tyep":	"",
+				"value":	"",
+				"sub":	null
+			}, {
+				"name":	"DHCP Daemon",
+				"description":	"",
+				"tyep":	"",
+				"value":	"",
+				"sub":	[{
+						"name":	"First IP Address",
+						"description":	"",
+						"tyep":	"",
+						"value":	"",
+						"sub":	null
+					}, {
+						"name":	"Router IP Address",
+						"description":	"",
+						"tyep":	"",
+						"value":	"",
+						"sub":	null
+					}]
+			}]
+	}, {
+		"name":	"TASH Shell",
+		"description":	"",
+		"tyep":	"",
+		"value":	"",
+		"sub":	[{
+				"name":	"Enable TASH Shell",
+				"description":	"",
+				"tyep":	"",
+				"value":	"",
+				"sub":	[{
+						"name":	"Debug Message",
+						"description":	"",
+						"tyep":	"",
+						"value":	"",
+						"sub":	null
+					}, {
+						"name":	"Telnet Interface",
+						"description":	"",
+						"tyep":	"",
+						"value":	"",
+						"sub":	null
+					}]
+			}]
+	}]
